@@ -134,3 +134,7 @@ The repair is published at https://jay-rtl.github.io/mibank/about/locations/. Wo
 **Next action:** Review the updated Hibiscus preview after the Pages workflow completes.
 
 **Hosted verification:** Published at https://jay-rtl.github.io/mibank/media/hibiscus/. Workflow 39821356855 succeeded. Installed Chrome checks at 1440/390px confirmed the exact caption, absence of the technical note, no horizontal overflow, retained noindex and HTTP 200 for both page and video download. Evidence: audit/hibiscus-caption-live-results.json. READY FOR REVIEW.
+
+## Media layout redesign — 23 October 2026
+
+The Media page now uses a dedicated newsroom layout with an editorial featured story, compact news rows, year archive and local search. All 49 original items and all source image/link destinations are retained. See MEDIA_LAYOUT_AUDIT.md for the structured scope, verification, performance results and outstanding source-content issues.
