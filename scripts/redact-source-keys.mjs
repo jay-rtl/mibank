@@ -1,0 +1,2 @@
+import fs from 'node:fs/promises';
+await fs.mkdir('.local-original-source',{recursive:true});for(const name of await fs.readdir('source/pages')){const file='source/pages/'+name;const html=await fs.readFile(file,'utf8');const cleaned=html.replace(/AIza[0-9A-Za-z_-]{30,}/g,'SOURCE_API_KEY_REDACTED');if(cleaned!==html){await fs.copyFile(file,'.local-original-source/'+name);await fs.writeFile(file,cleaned);console.log('Redacted public source API key in',name)}}

@@ -1,0 +1,905 @@
+{
+  "pages": [
+    {
+      "url": "https://www.mibank.com.pg/robots.txt",
+      "finalUrl": "https://www.mibank.com.pg/robots.txt",
+      "status": 404,
+      "type": "text/html; charset=iso-8859-1",
+      "file": "0-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9yb2JvdHMudHh0.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/sitemap.xml",
+      "finalUrl": "https://www.mibank.com.pg/sitemap.xml",
+      "status": 404,
+      "type": "text/html; charset=iso-8859-1",
+      "file": "1-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9zaXRlbWFwLnhtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/",
+      "finalUrl": "https://www.mibank.com.pg/",
+      "status": 200,
+      "type": "text/html",
+      "file": "2-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy8.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/index.htm",
+      "finalUrl": "https://www.mibank.com.pg/index.htm",
+      "status": 404,
+      "type": "text/html; charset=iso-8859-1",
+      "file": "3-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9pbmRleC5odG0.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/index.html",
+      "finalUrl": "https://www.mibank.com.pg/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "4-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9pbmRleC5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/products.html",
+      "finalUrl": "https://www.mibank.com.pg/products/products.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "5-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9wcm9kdWN0cy5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/business_loans.html",
+      "finalUrl": "https://www.mibank.com.pg/products/business_loans.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "6-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9idXNpbmVzc19sb2Fucy5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/nfa_fishing_loan.html",
+      "finalUrl": "https://www.mibank.com.pg/products/nfa_fishing_loan.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "7-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9uZmFfZmlzaGluZ19sb2FuLmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/farmer_loans.html",
+      "finalUrl": "https://www.mibank.com.pg/products/farmer_loans.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "8-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9mYXJtZXJfbG9hbnMuaHRtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/school_fee.html",
+      "finalUrl": "https://www.mibank.com.pg/products/school_fee.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "9-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9zY2hvb2xfZmVlLmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/miloan.html",
+      "finalUrl": "https://www.mibank.com.pg/products/miloan.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "10-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9taWxvYW4uaHRtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/sola_pawa_loans.html",
+      "finalUrl": "https://www.mibank.com.pg/products/sola_pawa_loans.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "11-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9zb2xhX3Bhd2FfbG9hbnMuaHRtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/mipikinini_savings_account.html",
+      "finalUrl": "https://www.mibank.com.pg/products/mipikinini_savings_account.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "12-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9taXBpa2luaW5pX3NhdmluZ3NfYWNjb3VudC5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/micash.html",
+      "finalUrl": "https://www.mibank.com.pg/products/micash.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "13-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9taWNhc2guaHRtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/fixed_deposits.html",
+      "finalUrl": "https://www.mibank.com.pg/products/fixed_deposits.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "14-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9maXhlZF9kZXBvc2l0cy5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/board.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/board.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "15-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9ib2FyZC5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/executive_management.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/executive_management.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "16-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9leGVjdXRpdmVfbWFuYWdlbWVudC5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/about_us.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/about_us.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "17-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9hYm91dF91cy5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/annual_reports.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/annual_reports.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "18-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9hbm51YWxfcmVwb3J0cy5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/vehicle_loan.html",
+      "finalUrl": "https://www.mibank.com.pg/products/vehicle_loan.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "19-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy92ZWhpY2xlX2xvYW4uaHRtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/map_points/MiBankSites.html",
+      "finalUrl": "https://www.mibank.com.pg/map_points/MiBankSites.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "20-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9tYXBfcG9pbnRzL01pQmFua1NpdGVzLmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/contact_us.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/contact_us.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "21-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9jb250YWN0X3VzLmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/privacy.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/privacy.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "22-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9wcml2YWN5Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/Hibiscus/Hibiscus.html",
+      "finalUrl": "https://www.mibank.com.pg/Hibiscus/Hibiscus.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "23-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9IaWJpc2N1cy9IaWJpc2N1cy5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/vision_mission.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/vision_mission.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "24-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy92aXNpb25fbWlzc2lvbi5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/history.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/history.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "25-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9oaXN0b3J5Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/tvc/MiBank_choice.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/media_release/tvc/MiBank_choice.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "26-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9tZWRpYV9yZWxlYXNlL3R2Yy9NaUJhbmtfY2hvaWNlLmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_ulip.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/media_ulip.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "27-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9tZWRpYV91bGlwLmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/media.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "28-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9tZWRpYS5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/payroll.html",
+      "finalUrl": "https://www.mibank.com.pg/products/payroll.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "29-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9wYXlyb2xsLmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_micash_agent.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/media_micash_agent.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "30-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9tZWRpYV9taWNhc2hfYWdlbnQuaHRtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/micard.html",
+      "finalUrl": "https://www.mibank.com.pg/products/micard.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "31-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9taWNhcmQuaHRtbA.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/micash_fees.html",
+      "finalUrl": "https://www.mibank.com.pg/products/micash_fees.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "32-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9wcm9kdWN0cy9taWNhc2hfZmVlcy5odG1s.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2015/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/MiBank_AR2015/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "33-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9NaUJhbmtfQVIyMDE1L2luZGV4Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2014/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/MiBank_AR2014/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "34-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9NaUJhbmtfQVIyMDE0L2luZGV4Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2017/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/MiBank_AR2017/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "35-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9NaUJhbmtfQVIyMDE3L2luZGV4Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2016/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/MiBank_AR2016/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "36-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9NaUJhbmtfQVIyMDE2L2luZGV4Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2013/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/NMB_AR2013/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "37-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9OTUJfQVIyMDEzL2luZGV4Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2018/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/MiBank_AR2018/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "38-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9NaUJhbmtfQVIyMDE4L2luZGV4Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2011/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/NMB_AR2011/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "39-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9OTUJfQVIyMDExL2luZGV4Lmh0bWw.html"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2012/index.html",
+      "finalUrl": "https://www.mibank.com.pg/about_us/NMB_AR2012/index.html",
+      "status": 200,
+      "type": "text/html",
+      "file": "40-aHR0cHM6Ly93d3cubWliYW5rLmNvbS5wZy9hYm91dF91cy9OTUJfQVIyMDEyL2luZGV4Lmh0bWw.html"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://www.mibank.com.pg/css/bootstrap-4.4.1.css"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/nmb_logo.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/MOBILE_BANKING_SPEED_LOAN_TC.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/twitter_bw.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/fb_small_bw.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_hibiscus_c.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_mibank_app.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/MiBank_SME_Loan_app_08-22_3.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/buiness_loan_app.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_micard_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/mibank_news_btn.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_michoice.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/video_mibank_agent.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/video_mibank_ulip.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/video_mibank_hibicus.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/js/jquery-3.4.1.min.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/js/popper.min.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/js/bootstrap-4.4.1.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/buiness_loan.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_fishing_loan_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/FarmersLoan.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_micash.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_miloan.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_mipikinini.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_school_fee_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_term_deposit.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_car_loan_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/MiBank_Speed_loan_TC.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_pawa.png"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/providing_sustainable.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/fishing.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/grow_with_us_d.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/farmer_loans.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/school_fee.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/miloan_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/miloan_c.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/sola_pawa_loans.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/mipikinini_savings_account.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/NMB_MiPikinini-Savings-Account_new-account_02-14.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/micash_page.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/NMB_MiCash_account_info_08-11.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/micash_b.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/micash_d.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/fixed_deposits.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/NMB_Fixed%20Deposit%20Application_08-13.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/NMB_Fixed%20Deposit_Companies_Application_05-13.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/Trudi_Egi.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Peter_Aitsi_09-23.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Wavie_Kendino_09-23.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Jason_Mcilvena_09-23.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Paul_Nindipa_09-23.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Arthur_Vera_09-23.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Ruth%20Kissam_08-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Fulaiyo_James.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Christian%20Reyes_08-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/Wendy_Piskaut.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/email.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Shanti%20Yaganegi_08-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/Steven_Nori.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/wayne_honeysett.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/mibank_bkgd.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/Mibank_AR2023.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Financial%20Statements%202023.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2019.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/Mibank_AR2022.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Financial%20Statements%202022.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/Financial%20Statements%202021.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Financial%20Statements%202021.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/AR_homepage_2019_2.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/MiBank_AR2018_05-19-1.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2018/Download/MiBank_AR2018_05-19.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/MiBank_AR2017.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2017/Download/MiBank_AR2017_03-18.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/MiBank_AR_2016.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2016/Download/MiBank_AR_2016_02-17.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2015.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2015/Download/MiBank_AR_2015_02-16_web.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2014.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2014/Download/MiBank_AR_2014_03-15.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2013.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2013/Download/NMB_AR_2013_02-14.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2012.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR_2012_03-13.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2011.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2011/Download/NMB_AR_2011.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR_2010.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2010.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR_2009.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2009.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR_2008.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/NMB_AR_2008.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/car_loan.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/NMB_Business_Loan_03-11.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/products/NMB_Salary_Earners_03-11.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/car_loan_page_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/map_points/style/style.css"
+    },
+    {
+      "url": "https://www.mibank.com.pg/map_points/code/mapscripts.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/nbm.css"
+    },
+    {
+      "url": "https://www.mibank.com.pg/map_points/pictures/nmb_logo.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/map_points/pictures/nmb.png"
+    },
+    {
+      "url": "https://www.mibank.com.pg/map_points/pictures/agentpic.png"
+    },
+    {
+      "url": "https://www.mibank.com.pg/map_points/pictures/notepad.png"
+    },
+    {
+      "url": "https://www.mibank.com.pg/Hibiscus/MiBank_45secTVC_draft%203_9Oct18.mp4"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/tvc/MIBANK%20TVC_30sec-draft.mp4"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_Vid/ULIP.mp4"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Retirement%20and%20appointment%20of%20CEO.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Retirement_11-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_10-24.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Media_08-21_2.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Umi%20market_10-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/PC0917_035_25664629.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Extends%20mobile_09-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Sola%20PayGo_08-24.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/Sola%20PayGo_08-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/PC0521_023_05-24.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/MAPRIK_05-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/PC0521_022_05-24.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/PPL%20partners_05-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank%20signs%20agreement%20with%20Digizen.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/IDtechnology_02-24.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_innovation%20award.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Nasfund_17022023.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/InternationalBanksDaySupp_11-22.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/FarmersLoan_11-22.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Mind%20Your%20Money_07_09_22.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank%20Cares%20Childrens%20Cancer%20Ward.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_SPCE03-22.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/SPC04Jan22E1PC023.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/PXX_International%20Day%20of%20Bank_12-21.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_RuralBanking_09-21.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Refurb3Aug21.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_mobile_wallets_01-21.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/grow_with_mibank_09-20.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Notice%20to%20Customers_COVID-19.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/EsiLoans%20Post%20Courier_07-20.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_Microfinance.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_Notice-to-customer_150x190_02-20.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_Kina%20Bank%20takes%20stake%20in%20MiBank.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/FINAL%20MiBank%20Press%20Release%20-%20Kina%20Bank%20takes%2015%%20stake%20in%20MiBank.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/ASX-PNGX%20Announcement_Kina%20Bank%20takes%20stake%20in%20MiBank.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/ASX-PNGX%20Announcement_Kina%20Bank%20takes%2015%%20stake%20in%20Nationwide%20Microbank%20Limited.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiBank_Empowering_Women_Suppliment.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/29P_FINANCIAL%20suppl_col.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/MiCash%20advertisement%20in%20Post%20Courier_07-08-19.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/about_us/MiBank_AR2019.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/about_us/media_release/Notice%20to%20Customers_COVID-19.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/PNGAC_22-05-19.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Post_Courier-29-03-19.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Press%20Release%20Namatanai%20Opening.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Hibiscus_Launch.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Hibiscus_Card_10-18.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Press%20Release%20GESI%20Policy.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Press%20Release%20FE%20at%20Gaire%20with%20PNGWCCI.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Press%20Release%20Kokopo%20Opening.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Press%20Release%20BIMA%20MiLife.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Binz%20Ice%20Agent.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/media_release/Press%20Release%20Nindipa%20Director.pdf"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/payroll.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_Vid/MiBank%20MiCash%20agent.mp4"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/micard_page.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/micard_hand.gif"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2015/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2015/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2015/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2017/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2017/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2017/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2014/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2014/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2014/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2016/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2016/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2016/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2013/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2013/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2013/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2018/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2018/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/MiBank_AR2018/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2011/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2011/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2011/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2012/Scripts/swfobject_modified.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2012/js/swfobject.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/about_us/NMB_AR2012/js/swfaddress.js"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_hibiscus_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_mibank_app_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_michoice_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_micard.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/video_mibank_agent_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/video_mibank_ulip_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/video_mibank_hibicus_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/buiness_loan_app_2.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_miloan_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_micash_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/mibank_news_btn_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/buiness_loan_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_fishing_loan.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/FarmersLoan_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_mipikinini_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_school_fee.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_term_deposit_b.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/mibank_images/products_car_loan.jpg"
+    },
+    {
+      "url": "https://www.mibank.com.pg/images/MiBank_Speed_loan_TC_b.jpg"
+    }
+  ]
+}

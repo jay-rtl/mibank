@@ -1,0 +1,289 @@
+{
+  "artwork": [
+    {
+      "width": 1440,
+      "images": 19,
+      "broken": 0,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "images": 19,
+      "broken": 0,
+      "overflow": false,
+      "violations": []
+    }
+  ],
+  "menus": [
+    {
+      "width": 1440,
+      "visible": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "visible": true,
+      "overflow": false
+    }
+  ],
+  "documents": [
+    {
+      "file": "/assets/MiBank_SME_Loan_app_08-22_3-78b6d03d.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MOBILE_BANKING_SPEED_LOAN_TC-16fe5fc1.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_MiPikinini-Savings-Account_new-account_02-14-ea6becde.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_MiCash_account_info_08-11-fd4d2cd9.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_Fixed-Deposit_Companies_Application_05-13-ade1ccd8.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_Fixed-Deposit-Application_08-13-c8b06da0.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Mibank_AR2023-7af46486.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_AR2019-8060c5a0.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Financial-Statements-2021-c55aa85d.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Mibank_AR2022-da5e24d6.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_AR2017_03-18-2040a7f9.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_AR_2016_02-17-a20200a3.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_AR2018_05-19-170d9c37.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_AR_2015_02-16_web-6c8f9237.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_AR_2012_03-13-2dbeced6.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_AR_2014_03-15-929468d7.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_AR_2013_02-14-d7779316.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_AR_2008-5da0ea57.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_AR_2010-901e6fb3.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_AR_2011-ebebfd91.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_AR_2009-29ea465c.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_Business_Loan_03-11-04ae0e7b.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/NMB_Salary_Earners_03-11-66fbacae.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Retirement-and-appointment-of-CEO-88178f74.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_10-24-815cf602.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Media_08-21_2-7d956b9d.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Sola-PayGo_08-24-b8360937.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/PC0521_022_05-24-73e27a72.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/PC0917_035_25664629-629c104d.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/PC0521_023_05-24-1a4e3569.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank-signs-agreement-with-Digizen-5d69003c.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank-Cares-Childrens-Cancer-Ward-f8d36062.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Mind-Your-Money_07_09_22-89fbfa9a.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_innovation-award-fa23fcbd.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Nasfund_17022023-62e52b2f.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/InternationalBanksDaySupp_11-22-a0721001.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/FarmersLoan_11-22-dc63ba4c.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Notice-to-Customers_COVID-19-0f7f2363.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Refurb3Aug21-fdc61c56.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_mobile_wallets_01-21-538be39d.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/PXX_International-Day-of-Bank_12-21-d7de1462.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_SPCE03-22-3e521667.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/SPC04Jan22E1PC023-cb415c51.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/grow_with_mibank_09-20-9d74f4e1.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_RuralBanking_09-21-f3d26b0e.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/EsiLoans-Post-Courier_07-20-cbbda1bf.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_Kina-Bank-takes-stake-in-MiBank-e03c4956.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_Notice-to-customer_150x190_02-20-2458495f.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_Microfinance-4083fb61.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/ASX-PNGX-Announcement_Kina-Bank-takes-stake-in-MiBank-9c69a62b.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiBank_Empowering_Women_Suppliment-5c79b168.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Press-Release-Namatanai-Opening-c1987705.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Hibiscus_Launch-88d1759b.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/MiCash-advertisement-in-Post-Courier_07-08-19-ce454f5c.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/29P_FINANCIAL-suppl_col-53327c08.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/PNGAC_22-05-19-abdcd87e.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Post_Courier-29-03-19-a2705d5a.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Binz-Ice-Agent-0995be5f.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Press-Release-BIMA-MiLife-d32e8874.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Hibiscus_Card_10-18-0c380933.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Press-Release-FE-at-Gaire-with-PNGWCCI-085dcb16.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Press-Release-Kokopo-Opening-1b24684b.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Press-Release-GESI-Policy-73b8bc5f.pdf",
+      "pdfSignature": true
+    },
+    {
+      "file": "/assets/Press-Release-Nindipa-Director-8f641784.pdf",
+      "pdfSignature": true
+    }
+  ],
+  "externalRuntime": []
+}

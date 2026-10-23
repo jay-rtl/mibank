@@ -1,0 +1,38 @@
+{
+  "name": "mibank-public-redesign",
+  "version": "1.0.0",
+  "description": "Non-production MiBank public informational website redesign",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "migrate": "node scripts/migrate.mjs",
+    "audit": "node scripts/audit.mjs",
+    "test": "node scripts/browser-audit.mjs",
+    "check": "astro check",
+    "audit:browser": "node scripts/browser-audit.mjs",
+    "audit:supplemental": "node scripts/supplemental-audit.mjs",
+    "audit:performance": "node scripts/performance.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.4.2",
+    "cheerio": "^1.2.0",
+    "gsap": "^3.15.0",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "lighthouse": "^13.5.0",
+    "typescript": "^6.0.3"
+  },
+  "private": true
+}

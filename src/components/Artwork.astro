@@ -1,0 +1,5 @@
+---
+import variants from '../../source/variants.json';import assets from '../../source/assets.json';
+const images=variants.map(v=>assets.find(a=>a.url===v.url&&a.status===200)).filter(Boolean);
+---
+<details class="artwork-archive"><summary>Original promotional artwork <span aria-hidden="true">+</span></summary><div class="artwork-grid">{images.map(img=><figure><img src={img!.optimized||img!.local} alt={`MiBank promotional artwork: ${decodeURIComponent(img!.url.split('/').at(-1)!).replace(/[_-]/g,' ').replace(/\.jpg$/,'')}`} width={img!.width} height={img!.height} loading="lazy"/><figcaption>{decodeURIComponent(img!.url.split('/').at(-1)!)}</figcaption></figure>)}</div></details>

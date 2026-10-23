@@ -1,0 +1,258 @@
+{
+  "environment": "Windows; installed Chrome; Playwright; local Astro production preview",
+  "viewports": [
+    1440,
+    768,
+    390
+  ],
+  "overflow": [],
+  "axe": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "Skip link keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "Desktop keyboard opens products",
+      "pass": true
+    },
+    {
+      "name": "Escape closes dropdown and restores focus",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu product navigation",
+      "pass": true
+    },
+    {
+      "name": "Nested route refresh",
+      "pass": true
+    },
+    {
+      "name": "Location search",
+      "pass": true
+    },
+    {
+      "name": "Location type filter",
+      "pass": true
+    },
+    {
+      "name": "Location empty state",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion content visible",
+      "pass": true
+    },
+    {
+      "name": "320px reflow fees table",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/business-loan",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/fisheries-loan",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/farmers-loan",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/school-fee-loan",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/miloan",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/sola-pawa-loans",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/mipikinini",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/micash",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/term-deposits",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/board-of-directors",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/executive-management",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/vehicle-loan",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/locations",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/contact",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/privacy",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /media/hibiscus",
+      "pass": true
+    },
+    {
+      "name": "Local video byte access /media/hibiscus",
+      "pass": true
+    },
+    {
+      "name": "Muted video playback /media/hibiscus",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/vision-mission",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/history",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /media/michoice",
+      "pass": true
+    },
+    {
+      "name": "Local video byte access /media/michoice",
+      "pass": true
+    },
+    {
+      "name": "Muted video playback /media/michoice",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /media/ulip",
+      "pass": true
+    },
+    {
+      "name": "Local video byte access /media/ulip",
+      "pass": true
+    },
+    {
+      "name": "Muted video playback /media/ulip",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /media",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/payroll-loan",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /media/micash-agent",
+      "pass": true
+    },
+    {
+      "name": "Local video byte access /media/micash-agent",
+      "pass": true
+    },
+    {
+      "name": "Muted video playback /media/micash-agent",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/micard",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /products/micash/fees",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2015",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2014",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2017",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2016",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2013",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2018",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2011",
+      "pass": true
+    },
+    {
+      "name": "Route and heading /about/annual-reports/2012",
+      "pass": true
+    },
+    {
+      "name": "Mobile navigation visible without JavaScript",
+      "pass": true
+    }
+  ],
+  "timing": [
+    {
+      "width": 1440,
+      "domContentLoadedMs": 127,
+      "loadMs": 228,
+      "transferBytes": 650279
+    },
+    {
+      "width": 768,
+      "domContentLoadedMs": 32,
+      "loadMs": 32,
+      "transferBytes": 31137
+    },
+    {
+      "width": 390,
+      "domContentLoadedMs": 21,
+      "loadMs": 21,
+      "transferBytes": 5400
+    }
+  ]
+}

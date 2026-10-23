@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Hanuabada - Financial Literacy Training",
+    "lat": -9.459629715,
+    "lng": 147.1561171,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Pari - Financial Literacy Training",
+    "lat": -9.513636834,
+    "lng": 147.2153612,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Kerema - Financial Literacy Training",
+    "lat": -8.076173514,
+    "lng": 146.1532893,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Rabaul - Financial Literacy Training",
+    "lat": -4.1996531,
+    "lng": 152.0970699,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Dei Council Mt Hagen - Financial Literacy Training",
+    "lat": -5.841642578,
+    "lng": 144.2203246,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Minj - Financial Literacy Training",
+    "lat": -5.863088594,
+    "lng": 144.6702689,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Goroka - Financial Literacy Training",
+    "lat": -6.083332999,
+    "lng": 145.383333,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Daru - Financial Literacy Training",
+    "lat": -9.07821275,
+    "lng": 143.2099659,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "LeaLea - Financial Literacy Training",
+    "lat": -9.285535664,
+    "lng": 146.9855886,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Baiyer - Financial Literacy Training",
+    "lat": -5.516040317,
+    "lng": 144.1504701,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Kimbe - Financial Literacy Training",
+    "lat": -5.435104173,
+    "lng": 150.4198155,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Tubusereia - Financial Literacy Training",
+    "lat": -9.5512199,
+    "lng": 147.3199869,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Tari - Financial Literacy Training",
+    "lat": -5.826859387,
+    "lng": 142.9662604,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Lae - Financial Literacy Training",
+    "lat": -6.432952953,
+    "lng": 146.8254334,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Sogeri - Financial Literacy Training",
+    "lat": -9.417347777,
+    "lng": 147.430059,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Lae - Financial Literacy Training",
+    "lat": -6.432952953,
+    "lng": 146.8254334,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Vabukori Village - Financial Literacy Training",
+    "lat": -9.501002998,
+    "lng": 147.1867899,
+    "type": "Financial Literacy Training"
+  },
+  {
+    "name": "Banz - Financial Literacy Training",
+    "lat": -5.819881399,
+    "lng": 144.6597741,
+    "type": "Agents"
+  },
+  {
+    "name": "Shemby Enterprise",
+    "lat": -9.550927938,
+    "lng": 147.3199389,
+    "type": "Agents"
+  },
+  {
+    "name": "Metira Trading - Agent",
+    "lat": -4.229305672,
+    "lng": 152.0745811,
+    "type": "Agents"
+  },
+  {
+    "name": "Papuan Gulf Region Womens Fellowship - Agent",
+    "lat": -8.171221711,
+    "lng": 146.1916788,
+    "type": "Agents"
+  },
+  {
+    "name": "Unen Financial - Agent",
+    "lat": -6.934914735,
+    "lng": 146.3948953,
+    "type": "Agents"
+  },
+  {
+    "name": "Dr Lalen Simeon - Agent",
+    "lat": -9.406615237,
+    "lng": 147.2744171,
+    "type": "Agents"
+  },
+  {
+    "name": "Baiyer Lumusa Women In Business - Agent",
+    "lat": -5.493589298,
+    "lng": 144.1137182,
+    "type": "Agents"
+  },
+  {
+    "name": "Molock Choit - Agent",
+    "lat": -6.177482681,
+    "lng": 147.1752751,
+    "type": "Agents"
+  },
+  {
+    "name": "Kun Trading - Agent",
+    "lat": -5.658685218,
+    "lng": 144.3705829,
+    "type": "Agents"
+  },
+  {
+    "name": "Buin Inn - Agent",
+    "lat": -6.745551806,
+    "lng": 155.6859124,
+    "type": "Agents"
+  },
+  {
+    "name": "Mapure Trading - Agent",
+    "lat": -5.492211895,
+    "lng": 144.0955522,
+    "type": "Agents"
+  },
+  {
+    "name": "Eden Sanctuary - Agent",
+    "lat": -4.345542209,
+    "lng": 152.3258118,
+    "type": "Agents"
+  },
+  {
+    "name": "Lyantta Trading - Agent",
+    "lat": -2.571453468,
+    "lng": 150.8136554,
+    "type": "Agents"
+  },
+  {
+    "name": "Apiyameku Trading - Agent",
+    "lat": -6.075950182,
+    "lng": 145.3809831,
+    "type": "Agents"
+  },
+  {
+    "name": "Quwansel Trading 2 - Agent",
+    "lat": -3.48533131,
+    "lng": 142.051163,
+    "type": "Agents"
+  },
+  {
+    "name": "RST Limited - Agent",
+    "lat": -3.134426243,
+    "lng": 142.3509037,
+    "type": "Agents"
+  },
+  {
+    "name": "Mickammy Trading - Agent",
+    "lat": -3.275401935,
+    "lng": 142.689169,
+    "type": "Agents"
+  },
+  {
+    "name": "Watikodal Trading - Agent",
+    "lat": -3.274869825,
+    "lng": 142.6843888,
+    "type": "Agents"
+  },
+  {
+    "name": "Don & Sons Canteen - Agent",
+    "lat": -9.926294337,
+    "lng": 151.0137044,
+    "type": "Agents"
+  },
+  {
+    "name": "Sunrise Trading - Agent",
+    "lat": -3.628254108,
+    "lng": 143.0549932,
+    "type": "Agents"
+  },
+  {
+    "name": "Kimil Trading - Agent",
+    "lat": -5.747544913,
+    "lng": 144.5162458,
+    "type": "Agents"
+  },
+  {
+    "name": "Voice For Change - Agent",
+    "lat": -5.799965584,
+    "lng": 144.6284845,
+    "type": "Agents"
+  },
+  {
+    "name": "Betvin Trading - Agent",
+    "lat": -9.277537077,
+    "lng": 147.2298761,
+    "type": "Agents"
+  },
+  {
+    "name": "Kwinkya Baptist Womens Fellowship - Agent",
+    "lat": -5.499014515,
+    "lng": 144.1143751,
+    "type": "Agents"
+  },
+  {
+    "name": "United Church Western Region Women Fellowship - Agent",
+    "lat": -9.07056733,
+    "lng": 143.2093582,
+    "type": "Agents"
+  },
+  {
+    "name": "Denggondo - Agent",
+    "lat": -6.201842272,
+    "lng": 147.1603086,
+    "type": "Agents"
+  },
+  {
+    "name": "Wawet - Agent",
+    "lat": -6.205079687,
+    "lng": 147.1637671,
+    "type": "Agents"
+  },
+  {
+    "name": "Thamagae - Agent",
+    "lat": -5.960747612,
+    "lng": 147.1925481,
+    "type": "Agents"
+  },
+  {
+    "name": "Monguon Trade Stor - Agent",
+    "lat": -6.158027208,
+    "lng": 147.1963739,
+    "type": "Agents"
+  },
+  {
+    "name": "PM Trading - Agent",
+    "lat": -3.634381971,
+    "lng": 143.056245,
+    "type": "Agents"
+  },
+  {
+    "name": "Binz Ice Ambra Association - Agent",
+    "lat": -5.802873047,
+    "lng": 144.6254594,
+    "type": "Agents"
+  },
+  {
+    "name": "Elhajoma General Contractors - Agent",
+    "lat": -5.321399152,
+    "lng": 151.0085889,
+    "type": "Agents"
+  },
+  {
+    "name": "LNS Trading - Agent",
+    "lat": -5.541877593,
+    "lng": 150.8689234,
+    "type": "Agents"
+  },
+  {
+    "name": "Parilla Holdings Ltd - Agent",
+    "lat": -6.747821573,
+    "lng": 155.6899418,
+    "type": "Agents"
+  },
+  {
+    "name": "IRRM - Agent",
+    "lat": -5.965236439,
+    "lng": 144.8883657,
+    "type": "Agents"
+  },
+  {
+    "name": "KGWAN Eco Habitat Inc - Agent",
+    "lat": -5.96526093,
+    "lng": 144.8907894,
+    "type": "Agents"
+  },
+  {
+    "name": "Ararau Cooperative - Agent",
+    "lat": -6.207853523,
+    "lng": 149.5377989,
+    "type": "Agents"
+  },
+  {
+    "name": "Sogeri Enterprise - Agent",
+    "lat": -9.424341142,
+    "lng": 147.4009804,
+    "type": "Agents"
+  },
+  {
+    "name": "Anua Negu Enterprise - Agent",
+    "lat": -4.274175736,
+    "lng": 144.9724412,
+    "type": "Agents"
+  },
+  {
+    "name": "Tua Denocarom Contractors - Agent",
+    "lat": -6.225224391,
+    "lng": 155.5655917,
+    "type": "Agents"
+  },
+  {
+    "name": "Bougainville Agrotech Ltd - Agent",
+    "lat": -6.233509782,
+    "lng": 155.5636061,
+    "type": "Agents"
+  },
+  {
+    "name": "Arawa Public Servants Fund - Agent",
+    "lat": -6.227499513,
+    "lng": 155.5659694,
+    "type": "Agents"
+  },
+  {
+    "name": "Doauto Trading - Agent",
+    "lat": -6.230662369,
+    "lng": 155.5655072,
+    "type": "Agents"
+  },
+  {
+    "name": "IMENG QUICK NAK FINANCE SERVICES 2 - Agent",
+    "lat": -5.627622236,
+    "lng": 146.4553504,
+    "type": "Agents"
+  },
+  {
+    "name": "IMENG QUICK NAK FINANCE SERVICES 1 - Agent",
+    "lat": -5.630057836,
+    "lng": 146.4558521,
+    "type": "Agents"
+  },
+  {
+    "name": "G.S TRADING - Agent",
+    "lat": -7.196903011,
+    "lng": 146.6455922,
+    "type": "Agents"
+  },
+  {
+    "name": "3 Star Contractors - Agent",
+    "lat": -7.337684699,
+    "lng": 146.7134529,
+    "type": "Agents"
+  },
+  {
+    "name": "Kutnapi Canteen - Agent",
+    "lat": -4.33235258,
+    "lng": 152.2545854,
+    "type": "Agents"
+  },
+  {
+    "name": "Logasisi Trading - Agent",
+    "lat": -9.918652886,
+    "lng": 150.9961394,
+    "type": "Agents"
+  },
+  {
+    "name": "Rakabai Enterprise - Agent",
+    "lat": -4.341462496,
+    "lng": 152.2644253,
+    "type": "Agents"
+  },
+  {
+    "name": "Ialakua Trading - Agent",
+    "lat": -4.310705863,
+    "lng": 152.2251361,
+    "type": "Agents"
+  },
+  {
+    "name": "Milmor Investment - Agent",
+    "lat": -6.662308209,
+    "lng": 147.0040219,
+    "type": "Agents"
+  },
+  {
+    "name": "Hesed Trading - Agent",
+    "lat": -4.328199782,
+    "lng": 152.2434232,
+    "type": "Agents"
+  },
+  {
+    "name": "Unen Choit Cooperative Society Kabwum - Agent",
+    "lat": -6.156111384,
+    "lng": 147.1894293,
+    "type": "Agents"
+  },
+  {
+    "name": "Glory Service Station - Agent",
+    "lat": -6.54236639,
+    "lng": 146.7255417,
+    "type": "Agents"
+  },
+  {
+    "name": "Buka - Branch",
+    "lat": -5.429810879,
+    "lng": 154.6716923,
+    "type": "Branches"
+  },
+  {
+    "name": "Bulolo - Branch",
+    "lat": -7.20123363,
+    "lng": 146.6440361,
+    "type": "Branches"
+  },
+  {
+    "name": "Wewak - Branch",
+    "lat": -3.547901486,
+    "lng": 143.6268062,
+    "type": "Branches"
+  },
+  {
+    "name": "Lihir - Branch",
+    "lat": -3.067782717,
+    "lng": 152.6373195,
+    "type": "Branches"
+  },
+  {
+    "name": "Madang - Branch",
+    "lat": -5.217487882,
+    "lng": 145.8049856,
+    "type": "Branches"
+  },
+  {
+    "name": "Goroka - Branch",
+    "lat": -6.073422434,
+    "lng": 145.3891794,
+    "type": "Branches"
+  },
+  {
+    "name": "Lae - Branch",
+    "lat": -6.72609456,
+    "lng": 147.0011442,
+    "type": "Branches"
+  },
+  {
+    "name": "Waigani Central - Branch",
+    "lat": -9.453765946,
+    "lng": 147.1877995,
+    "type": "Branches"
+  },
+  {
+    "name": "Kimbe - Branch",
+    "lat": -5.55021,
+    "lng": 150.14285,
+    "type": "Branches"
+  },
+  {
+    "name": "Mt Hagen - Branch",
+    "lat": -5.858890452,
+    "lng": 144.2281408,
+    "type": "Branches"
+  },
+  {
+    "name": "Kokopo - Branch",
+    "lat": -4.3420836,
+    "lng": 152.2658636,
+    "type": "Branches"
+  },
+  {
+    "name": "MiBank - Head Office",
+    "lat": -9.4772564,
+    "lng": 147.1521048,
+    "type": "Branches"
+  },
+  {
+    "name": "Alotau - Branch",
+    "lat": -10.3162809,
+    "lng": 150.4555213,
+    "type": "Branches"
+  },
+  {
+    "name": "Bialla - Branch",
+    "lat": -5.3204215,
+    "lng": 151.02896391,
+    "type": "Branches"
+  },
+  {
+    "name": "Kiunga - Branch",
+    "lat": -6.1218439,
+    "lng": 141.2909388,
+    "type": "Branches"
+  },
+  {
+    "name": "Popondetta - Branch",
+    "lat": -8.765292,
+    "lng": 148.239555,
+    "type": "Branches"
+  }
+]

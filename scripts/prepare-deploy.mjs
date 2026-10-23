@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';import path from 'node:path';
+const base=(process.env.DEPLOY_BASE||'/mibank').replace(/\/$/,'');
+async function visit(dir){for(const entry of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,entry.name);if(entry.isDirectory())await visit(p);else if(/\.(?:html|css)$/.test(entry.name)){let text=await fs.readFile(p,'utf8');if(entry.name.endsWith('.html'))text=text.replace(/((?:href|src|poster|action)=['"])(\/(?!\/)[^'"]*)/g,(all,prefix,url)=>url===base||url.startsWith(base+'/')?all:prefix+base+url).replace(/(srcset=['"])([^'"]+)(['"])/g,(_,start,value,end)=>start+value.replace(/(^|,\s*)\/(?!\/)/g,'$1'+base+'/')+end);else text=text.replace(/(url\(['"]?)(\/(?!\/)[^)'"\s]+)/g,(all,prefix,url)=>url.startsWith(base+'/')?all:prefix+base+url);await fs.writeFile(p,text)}}}
+await visit('dist');await fs.writeFile('dist/.nojekyll','');console.log('Prepared GitHub Pages base',base);

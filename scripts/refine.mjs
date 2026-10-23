@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';
+const f='src/pages/index.astro';let s=await fs.readFile(f,'utf8');
+if(!s.includes('<picture>'))s=s.replace('<img class="hero-photo"','<picture><source type="image/avif" srcset="/assets/hibiscus-hero-640.avif 640w, /assets/hibiscus-hero-960.avif 960w, /assets/hibiscus-hero-1422.avif 1422w" sizes="(max-width: 520px) 140vw, (max-width: 800px) 80vw, 55vw"/><img class="hero-photo"').replace('alt="MiBank Hibiscus Card customer in Papua New Guinea"/>','alt="MiBank Hibiscus Card customer in Papua New Guinea"/></picture>');
+await fs.writeFile(f,s);
+const l='src/layouts/Layout.astro';let layout=await fs.readFile(l,'utf8');if(!layout.includes('<noscript>'))layout=layout.replace('<a class="skip-link"','<noscript><style>@media(max-width:800px){.site-header{position:static}.header-inner{height:auto;flex-wrap:wrap;padding-block:20px}#primary-nav{display:block;position:static;max-height:none;width:100%;padding-inline:0}.mobile-toggle{display:none}.location-directory .directory-filters{display:none}}</style></noscript><a class="skip-link"');await fs.writeFile(l,layout);

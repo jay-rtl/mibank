@@ -1,0 +1,34 @@
+[
+  {
+    "source": "https://www.mibank.com.pg/Hibiscus/MiBank_45secTVC_draft%203_9Oct18.mp4",
+    "originalLocal": ".local-original-media/MiBank_45secTVC_draft-3_9Oct18-221def98.mp4",
+    "originalBytes": 5012623,
+    "deployedLocal": "/assets/MiBank_45secTVC_draft-3_9Oct18-221def98.mp4",
+    "deployedBytes": 1495476,
+    "encoding": "H.264 CRF 25, maximum 1280×720 without upscaling, preserving aspect ratio; 25fps; AAC 128 kbps; faststart; full duration and audio retained"
+  },
+  {
+    "source": "https://www.mibank.com.pg/about_us/media_release/tvc/MIBANK%20TVC_30sec-draft.mp4",
+    "originalLocal": ".local-original-media/MIBANK-TVC_30sec-draft-7a839936.mp4",
+    "originalBytes": 3315965,
+    "deployedLocal": "/assets/MIBANK-TVC_30sec-draft-7a839936.mp4",
+    "deployedBytes": 1782782,
+    "encoding": "H.264 CRF 25, maximum 1280×720 without upscaling, preserving aspect ratio; 25fps; AAC 128 kbps; faststart; full duration and audio retained"
+  },
+  {
+    "source": "https://www.mibank.com.pg/about_us/MiBank_Vid/ULIP.mp4",
+    "originalLocal": ".local-original-media/ULIP-d9cb70d9.mp4",
+    "originalBytes": 80636074,
+    "deployedLocal": "/assets/ULIP-d9cb70d9.mp4",
+    "deployedBytes": 34442942,
+    "encoding": "H.264 CRF 25, maximum 1280×720 without upscaling, preserving aspect ratio; 25fps; AAC 128 kbps; faststart; full duration and audio retained"
+  },
+  {
+    "source": "https://www.mibank.com.pg/about_us/MiBank_Vid/MiBank%20MiCash%20agent.mp4",
+    "originalLocal": ".local-original-media/MiBank-MiCash-agent-2bef3952.mp4",
+    "originalBytes": 166259665,
+    "deployedLocal": "/assets/MiBank-MiCash-agent-2bef3952.mp4",
+    "deployedBytes": 19313993,
+    "encoding": "H.264 CRF 25, maximum 1280×720 without upscaling, preserving aspect ratio; 25fps; AAC 128 kbps; faststart; full duration and audio retained"
+  }
+]

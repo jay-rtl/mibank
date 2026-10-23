@@ -1,0 +1,4 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Source document unavailable"><section class="shell section error-page"><span class="eyebrow">Non-production preview</span><h1>Source document unavailable</h1><p>The original website’s link could not be retrieved during migration. This document has not been replaced or recreated.</p><p id="missing-file"></p><a class="button button-dark" href="/media">Media →</a><a class="text-link" href="/about/contact">Contact Us →</a></section><script>const file=new URLSearchParams(location.search).get('file');if(file)document.querySelector('#missing-file')!.textContent=file;</script></Layout>

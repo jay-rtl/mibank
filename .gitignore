@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+test-results/
+playwright-report/
+*.log
+.deployment-tools/
+.local-original-media/
+audit/screenshots/
+.deploy-dist/
+.local-original-source/
