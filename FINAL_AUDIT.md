@@ -138,3 +138,5 @@ The repair is published at https://jay-rtl.github.io/mibank/about/locations/. Wo
 ## Media layout redesign — 23 October 2026
 
 The Media page now uses a dedicated newsroom layout with an editorial featured story, compact news rows, year archive and local search. All 49 original items and all source image/link destinations are retained. See MEDIA_LAYOUT_AUDIT.md for the structured scope, verification, performance results and outstanding source-content issues.
+
+Hosted verification passed at https://jay-rtl.github.io/mibank/media/: 45 browser checks, three clean axe scans at desktop/tablet/mobile widths, zero browser errors or failed resources. GitHub Pages workflow 39840527624 succeeded. Evidence: audit/media-layout-live-results.json. READY FOR REVIEW.

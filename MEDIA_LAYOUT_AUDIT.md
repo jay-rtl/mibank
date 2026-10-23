@@ -48,3 +48,13 @@ READY FOR REVIEW — layout implemented and locally verified for the existing no
 ## 7. Next action
 
 Review the redesigned Media page on the existing GitHub Pages preview after deployment, including the featured story, search and year archive.
+
+## Hosted verification
+
+Published: https://jay-rtl.github.io/mibank/media/
+
+Deployed source: 0221d68733f5078bba404e6827a49fd5b5d6b2ed. Workflow https://github.com/jay-rtl/mibank/actions/runs/39840527624 succeeded.
+
+`node scripts/media-layout-audit.mjs https://jay-rtl.github.io/mibank` passed all 45 hosted checks and three axe scans at 1440/768/390px. All 49 items, all source image/link destinations, search/reset/empty state, year navigation, no-JS content and unaffected routes passed. Zero browser errors or failed resources. Evidence: `audit/media-layout-live-results.json`.
+
+READY FOR REVIEW — the redesigned Media page is live on the existing preview.

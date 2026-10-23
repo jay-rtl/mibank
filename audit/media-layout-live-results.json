@@ -1,0 +1,201 @@
+{
+  "base": "https://jay-rtl.github.io/mibank",
+  "checks": [
+    {
+      "name": "Media HTTP 1440",
+      "pass": true
+    },
+    {
+      "name": "49 articles 1440",
+      "pass": true
+    },
+    {
+      "name": "No About sidebar 1440",
+      "pass": true
+    },
+    {
+      "name": "No overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Feature image loaded 1440",
+      "pass": true
+    },
+    {
+      "name": "All source links preserved 1440",
+      "pass": true
+    },
+    {
+      "name": "All source images preserved 1440",
+      "pass": true
+    },
+    {
+      "name": "Title search 1440",
+      "pass": true
+    },
+    {
+      "name": "Source headline intact 1440",
+      "pass": true
+    },
+    {
+      "name": "Empty search 1440",
+      "pass": true
+    },
+    {
+      "name": "Reset all stories 1440",
+      "pass": true
+    },
+    {
+      "name": "Year navigation 1440",
+      "pass": true
+    },
+    {
+      "name": "Year search 1440",
+      "pass": true
+    },
+    {
+      "name": "Media HTTP 768",
+      "pass": true
+    },
+    {
+      "name": "49 articles 768",
+      "pass": true
+    },
+    {
+      "name": "No About sidebar 768",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768",
+      "pass": true
+    },
+    {
+      "name": "Feature image loaded 768",
+      "pass": true
+    },
+    {
+      "name": "All source links preserved 768",
+      "pass": true
+    },
+    {
+      "name": "All source images preserved 768",
+      "pass": true
+    },
+    {
+      "name": "Title search 768",
+      "pass": true
+    },
+    {
+      "name": "Source headline intact 768",
+      "pass": true
+    },
+    {
+      "name": "Empty search 768",
+      "pass": true
+    },
+    {
+      "name": "Reset all stories 768",
+      "pass": true
+    },
+    {
+      "name": "Year navigation 768",
+      "pass": true
+    },
+    {
+      "name": "Year search 768",
+      "pass": true
+    },
+    {
+      "name": "Media HTTP 390",
+      "pass": true
+    },
+    {
+      "name": "49 articles 390",
+      "pass": true
+    },
+    {
+      "name": "No About sidebar 390",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Feature image loaded 390",
+      "pass": true
+    },
+    {
+      "name": "All source links preserved 390",
+      "pass": true
+    },
+    {
+      "name": "All source images preserved 390",
+      "pass": true
+    },
+    {
+      "name": "Title search 390",
+      "pass": true
+    },
+    {
+      "name": "Source headline intact 390",
+      "pass": true
+    },
+    {
+      "name": "Empty search 390",
+      "pass": true
+    },
+    {
+      "name": "Reset all stories 390",
+      "pass": true
+    },
+    {
+      "name": "Year navigation 390",
+      "pass": true
+    },
+    {
+      "name": "Year search 390",
+      "pass": true
+    },
+    {
+      "name": "Featured title keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion content visible",
+      "pass": true
+    },
+    {
+      "name": "All stories without JavaScript",
+      "pass": true
+    },
+    {
+      "name": "Unaffected route /products/micash/",
+      "pass": true
+    },
+    {
+      "name": "Unaffected route /media/hibiscus/",
+      "pass": true
+    },
+    {
+      "name": "Unaffected route /about/locations/",
+      "pass": true
+    }
+  ],
+  "axe": [
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "failed": []
+}
