@@ -1,0 +1,319 @@
+{
+  "base": "https://jay-rtl.github.io/mibank",
+  "checks": [
+    {
+      "name": "Home HTTP 1440",
+      "pass": true
+    },
+    {
+      "name": "Welcome opens 1440",
+      "pass": true
+    },
+    {
+      "name": "Welcome has no logo 1440",
+      "pass": true
+    },
+    {
+      "name": "Welcome dismisses automatically",
+      "pass": true
+    },
+    {
+      "name": "Hero starts on first slide",
+      "pass": true
+    },
+    {
+      "name": "Live hero autoplays",
+      "pass": true
+    },
+    {
+      "name": "Hero image loads 1440",
+      "pass": true
+    },
+    {
+      "name": "No overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Live ScrollTrigger installed 1440",
+      "pass": true
+    },
+    {
+      "name": "Live masks and scaling progress 1440",
+      "pass": true
+    },
+    {
+      "name": "Product navigation 1440",
+      "pass": true
+    },
+    {
+      "name": "Dark inner page 1440",
+      "pass": true
+    },
+    {
+      "name": "Nested route refresh 1440",
+      "pass": true
+    },
+    {
+      "name": "49 Media items 1440",
+      "pass": true
+    },
+    {
+      "name": "Responsive media image 1440",
+      "pass": true
+    },
+    {
+      "name": "Media search 1440",
+      "pass": true
+    },
+    {
+      "name": "Media reset 1440",
+      "pass": true
+    },
+    {
+      "name": "Locations popup 1440",
+      "pass": true
+    },
+    {
+      "name": "Home HTTP 390",
+      "pass": true
+    },
+    {
+      "name": "Welcome opens 390",
+      "pass": true
+    },
+    {
+      "name": "Welcome has no logo 390",
+      "pass": true
+    },
+    {
+      "name": "Hero image loads 390",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Live ScrollTrigger installed 390",
+      "pass": true
+    },
+    {
+      "name": "Live masks and scaling progress 390",
+      "pass": true
+    },
+    {
+      "name": "Product navigation 390",
+      "pass": true
+    },
+    {
+      "name": "Dark inner page 390",
+      "pass": true
+    },
+    {
+      "name": "Nested route refresh 390",
+      "pass": true
+    },
+    {
+      "name": "49 Media items 390",
+      "pass": true
+    },
+    {
+      "name": "Responsive media image 390",
+      "pass": true
+    },
+    {
+      "name": "Media search 390",
+      "pass": true
+    },
+    {
+      "name": "Media reset 390",
+      "pass": true
+    },
+    {
+      "name": "Locations popup 390",
+      "pass": true
+    },
+    {
+      "name": "Original PDF download",
+      "pass": true
+    },
+    {
+      "name": "Video playback hibiscus",
+      "pass": true
+    },
+    {
+      "name": "Video playback michoice",
+      "pass": true
+    },
+    {
+      "name": "Video playback ulip",
+      "pass": true
+    },
+    {
+      "name": "Video playback micash-agent",
+      "pass": true
+    },
+    {
+      "name": "Published route /",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/fisheries-loan",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/business-loan",
+      "pass": true
+    },
+    {
+      "name": "Published route /products",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/school-fee-loan",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/farmers-loan",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/sola-pawa-loans",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/miloan",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/micash",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/mipikinini",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/board-of-directors",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/term-deposits",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/executive-management",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/vehicle-loan",
+      "pass": true
+    },
+    {
+      "name": "Published route /about",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/locations",
+      "pass": true
+    },
+    {
+      "name": "Published route /media/hibiscus",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/privacy",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/contact",
+      "pass": true
+    },
+    {
+      "name": "Published route /media/ulip",
+      "pass": true
+    },
+    {
+      "name": "Published route /media/michoice",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/history",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/vision-mission",
+      "pass": true
+    },
+    {
+      "name": "Published route /media",
+      "pass": true
+    },
+    {
+      "name": "Published route /media/micash-agent",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/micard",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/payroll-loan",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2017",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2014",
+      "pass": true
+    },
+    {
+      "name": "Published route /products/micash/fees",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2015",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2013",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2018",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2011",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2016",
+      "pass": true
+    },
+    {
+      "name": "Published route /about/annual-reports/2012",
+      "pass": true
+    }
+  ],
+  "axe": [
+    {
+      "route": "/media/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "route": "/media/",
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

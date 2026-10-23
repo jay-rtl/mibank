@@ -1,5 +1,7 @@
 # GSAP ScrollTrigger cinematic scrolling — local review
 
+Deployment update: the reviewed version is now published. See `CINEMATIC_DEPLOYMENT_AUDIT.md` for the successful workflow and 75 live checks. This document records the preceding local validation.
+
 ## 1. Implemented
 
 - `src/lib/scroll-reveals.ts`: replaced the prior IntersectionObserver fade/lift implementation with GSAP timelines and ScrollTrigger. No opacity tween is used in the new scroll effects.

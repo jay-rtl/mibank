@@ -1,5 +1,7 @@
 # GitHub Pages preview deployment
 
+Latest verified version: cinematic dark theme, welcome intro and scroll-linked motion, deployed from `15e7f184c1ff51757f28ee5d1dc50c14bf30c1cb`. [Live preview](https://jay-rtl.github.io/mibank/) · [Successful workflow](https://github.com/jay-rtl/mibank/actions/runs/39875088768). All 75 live checks passed. See `CINEMATIC_DEPLOYMENT_AUDIT.md` for scoped results and outstanding items.
+
 User approved GitHub Pages on 23 October 2026. Destination repository: https://github.com/jay-rtl/mibank. This is an independent, non-production preview; index blocking and the preview banner are retained. The official MiBank website is not modified.
 
 ## Build and publish
