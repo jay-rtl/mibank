@@ -107,3 +107,28 @@ Launch readiness: READY FOR REVIEW — deployed preview is available. This is no
 The omitted interactive map and oversized legend have been repaired. See MAP_FIX_AUDIT.md for the scoped verification matrix, local performance results and regional-map limitations. All 88 original point coordinates and labels remain intact; original contact wording remains available.
 
 The repair is published at https://jay-rtl.github.io/mibank/about/locations/. Workflow 39820586286 succeeded. Hosted verification passed 44 map checks and three axe scans with zero browser errors, failed resources or external runtime requests. See MAP_FIX_AUDIT.md and audit/map-live-results.json.
+
+## Hibiscus video caption update — 23 October 2026
+
+**Implemented:** Replaced the technical note below the Hibiscus video with the user-requested source wording, “Simple hassle-free banking for everyone”. The title/download utility remains beneath it. Scope: src/pages/[...slug].astro, Hibiscus page only.
+
+**Design review:** Responsive heading, inspected in rendered Chrome screenshots at 1440px and 390px; no horizontal overflow.
+
+| Category | Status | Evidence |
+| --- | --- | --- |
+| Functionality | PASS | Caption matches requested text; technical note removed on Hibiscus; original video/download path retained; complete static-link audit passes. |
+| SEO | PASS | Existing title/metadata/noindex retained; caption uses a semantic H2; source text inclusion passes across 37 pages. |
+| Responsive/Visual | PASS | Actual desktop/mobile caption screenshots inspected, no overflow. |
+| Accessibility — changed caption | PASS | Scoped axe checks on the new heading found no applicable violations at both widths. |
+| Accessibility — video alternatives | NOT TESTED | No caption track or transcript was added; the previous known media accessibility gap remains. This change concerns visible page text. |
+| Security/Privacy | NOT APPLICABLE | Static text/style change adds no data collection, integration or permissions. |
+| Performance | NOT TESTED | No new media/scripts or animation; Lighthouse not repeated for this text-only update. |
+| Code/Regression | PASS | npm run check: zero diagnostics; npm run build succeeds; npm run audit: zero missing source text/broken local references. |
+
+**Tests run:** npm run check, npm run build, npm run audit; ad hoc Playwright/axe in installed Windows Chrome at 1440/390px. Evidence: audit/hibiscus-caption-results.json and local screenshots.
+
+**Outstanding:** Existing site-wide review gaps remain; actual video captions/transcripts are not supplied by this visible-text edit.
+
+**Launch readiness:** READY FOR REVIEW — caption update prepared for the existing preview deployment.
+
+**Next action:** Review the updated Hibiscus preview after the Pages workflow completes.
