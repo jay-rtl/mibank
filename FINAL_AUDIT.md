@@ -132,3 +132,5 @@ The repair is published at https://jay-rtl.github.io/mibank/about/locations/. Wo
 **Launch readiness:** READY FOR REVIEW — caption update prepared for the existing preview deployment.
 
 **Next action:** Review the updated Hibiscus preview after the Pages workflow completes.
+
+**Hosted verification:** Published at https://jay-rtl.github.io/mibank/media/hibiscus/. Workflow 39821356855 succeeded. Installed Chrome checks at 1440/390px confirmed the exact caption, absence of the technical note, no horizontal overflow, retained noindex and HTTP 200 for both page and video download. Evidence: audit/hibiscus-caption-live-results.json. READY FOR REVIEW.
