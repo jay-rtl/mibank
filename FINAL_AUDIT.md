@@ -101,3 +101,7 @@ Tests run: npm run check; DEPLOY_BASE=/mibank npm run build; node scripts/prepar
 Outstanding items: the earlier four unavailable documents, media accessibility, source-content currency, legal/client review and broader browser/device checks are unresolved. GitHub Pages is public hosting; no access-control guarantee is made.
 
 Launch readiness: READY FOR REVIEW — deployed preview is available. This is not clearance to replace the official banking website. Next action: review the live preview and address the existing content/accessibility items before a production launch.
+
+
+## Locations map repair — 23 October 2026
+The omitted interactive map and oversized legend have been repaired. See MAP_FIX_AUDIT.md for the scoped verification matrix, local performance results and regional-map limitations. All 88 original point coordinates and labels remain intact; original contact wording remains available.

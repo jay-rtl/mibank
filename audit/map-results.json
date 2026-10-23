@@ -1,0 +1,198 @@
+{
+  "base": "http://127.0.0.1:4322/mibank",
+  "checks": [
+    {
+      "name": "88 markers 1440",
+      "pass": true
+    },
+    {
+      "name": "Geographic shapes 1440",
+      "pass": true
+    },
+    {
+      "name": "No overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Compact legend 1440",
+      "pass": true
+    },
+    {
+      "name": "Map and list search 1440",
+      "pass": true
+    },
+    {
+      "name": "Branch filter 1440",
+      "pass": true
+    },
+    {
+      "name": "Keyboard location opens popup 1440",
+      "pass": true
+    },
+    {
+      "name": "Escape closes popup 1440",
+      "pass": true
+    },
+    {
+      "name": "Reset 1440",
+      "pass": true
+    },
+    {
+      "name": "Zoom controls 1440",
+      "pass": true
+    },
+    {
+      "name": "Empty state 1440",
+      "pass": true
+    },
+    {
+      "name": "Zoom changes geography 1440",
+      "pass": true
+    },
+    {
+      "name": "Dragging pans geography 1440",
+      "pass": true
+    },
+    {
+      "name": "88 markers 768",
+      "pass": true
+    },
+    {
+      "name": "Geographic shapes 768",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768",
+      "pass": true
+    },
+    {
+      "name": "Compact legend 768",
+      "pass": true
+    },
+    {
+      "name": "Map and list search 768",
+      "pass": true
+    },
+    {
+      "name": "Branch filter 768",
+      "pass": true
+    },
+    {
+      "name": "Keyboard location opens popup 768",
+      "pass": true
+    },
+    {
+      "name": "Escape closes popup 768",
+      "pass": true
+    },
+    {
+      "name": "Reset 768",
+      "pass": true
+    },
+    {
+      "name": "Zoom controls 768",
+      "pass": true
+    },
+    {
+      "name": "Empty state 768",
+      "pass": true
+    },
+    {
+      "name": "Zoom changes geography 768",
+      "pass": true
+    },
+    {
+      "name": "Dragging pans geography 768",
+      "pass": true
+    },
+    {
+      "name": "88 markers 390",
+      "pass": true
+    },
+    {
+      "name": "Geographic shapes 390",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Compact legend 390",
+      "pass": true
+    },
+    {
+      "name": "Map and list search 390",
+      "pass": true
+    },
+    {
+      "name": "Branch filter 390",
+      "pass": true
+    },
+    {
+      "name": "Keyboard location opens popup 390",
+      "pass": true
+    },
+    {
+      "name": "Escape closes popup 390",
+      "pass": true
+    },
+    {
+      "name": "Reset 390",
+      "pass": true
+    },
+    {
+      "name": "Zoom controls 390",
+      "pass": true
+    },
+    {
+      "name": "Empty state 390",
+      "pass": true
+    },
+    {
+      "name": "Zoom changes geography 390",
+      "pass": true
+    },
+    {
+      "name": "Dragging pans geography 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion map available",
+      "pass": true
+    },
+    {
+      "name": "Unrelated page /",
+      "pass": true
+    },
+    {
+      "name": "Unrelated page /products/micash/",
+      "pass": true
+    },
+    {
+      "name": "Unrelated page /about/contact/",
+      "pass": true
+    },
+    {
+      "name": "No-JS location list",
+      "pass": true
+    }
+  ],
+  "axe": [
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "externalRequests": []
+}

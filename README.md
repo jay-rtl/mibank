@@ -56,3 +56,7 @@ See `SITE_INVENTORY.md`, `CONTENT_AUDIT.md`, `ROUTE_MAPPING.md`, `ASSET_MANIFEST
 https://jay-rtl.github.io/mibank/
 
 The user-approved public preview deploys from main through GitHub Actions. See DEPLOYMENT.md for base-path handling and the optimized-video/original-backup policy. Source snapshot API keys are redacted before publication.
+
+## Interactive Locations map
+
+The Locations page now uses locally bundled Leaflet and Natural Earth geography with the original 88 MiBank coordinates and marker artwork. No map API key or external tile request is required. Search/type filtering updates both markers and the keyboard-accessible list. This regional map does not include street/satellite layers or routing. See MAP_FIX_AUDIT.md.

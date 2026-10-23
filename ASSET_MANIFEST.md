@@ -195,3 +195,7 @@ The MP4 paths above now serve optimized derivatives; the original byte counts ab
 | https://www.mibank.com.pg/about_us/media_release/tvc/MIBANK%20TVC_30sec-draft.mp4 | .local-original-media/MIBANK-TVC_30sec-draft-7a839936.mp4 | /assets/MIBANK-TVC_30sec-draft-7a839936.mp4 | 3315965 | 1782782 |
 | https://www.mibank.com.pg/about_us/MiBank_Vid/ULIP.mp4 | .local-original-media/ULIP-d9cb70d9.mp4 | /assets/ULIP-d9cb70d9.mp4 | 80636074 | 34442942 |
 | https://www.mibank.com.pg/about_us/MiBank_Vid/MiBank%20MiCash%20agent.mp4 | .local-original-media/MiBank-MiCash-agent-2bef3952.mp4 | /assets/MiBank-MiCash-agent-2bef3952.mp4 | 166259665 | 19313993 |
+
+
+## Locations map repair
+Regional boundary data: https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson → src/data/map-geography.json (locally bundled; Natural Earth public domain). Provenance: source/map-geography.json. Leaflet BSD license: public/assets/Leaflet-LICENSE.txt. Existing original MiBank branch/agent/training icons are reused at compact sizes. No external map requests or API key.

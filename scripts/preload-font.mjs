@@ -1,0 +1,1 @@
+import fs from 'node:fs/promises';const file='src/layouts/Layout.astro';let text=await fs.readFile(file,'utf8');if(!text.includes('as="font"')){text=text.replace('<link rel="icon"','<link rel="preload" as="font" href="/assets/manrope-latin.woff2" type="font/woff2" crossorigin/><link rel="icon"');await fs.writeFile(file,text)}

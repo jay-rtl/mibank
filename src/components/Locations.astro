@@ -1,7 +1,56 @@
 ---
 import locations from '../data/locations.json';
+import {asset} from '../lib/content';
+const icons={Branches:asset('nmb.png'),Agents:asset('agentpic.png'),'Financial Literacy Training':asset('notepad.png')};
 ---
-<section class="location-directory"><div class="directory-heading"><h2>Locations</h2><p>Did you know that MiBank is in all these locations?</p></div><div class="directory-filters"><div><label for="location-search">Search locations</label><input id="location-search" type="search" placeholder="Branch, agent or place" autocomplete="off"/></div><div><label for="location-type">Location type</label><select id="location-type"><option value="all">All locations</option><option>Branches</option><option>Agents</option><option>Financial Literacy Training</option></select></div></div><p id="location-count" role="status" aria-live="polite">{locations.length} locations</p><ul class="location-list">{locations.map(l=><li data-location={l.name.toLowerCase()} data-type={l.type}><span>{l.name}</span><small>{l.type}</small></li>)}</ul><p id="no-locations" hidden>No matching locations.</p></section>
+<section class="location-directory" data-map-icons={JSON.stringify(icons)}>
+  <div class="directory-heading"><h2>Locations</h2><p>Did you know that MiBank is in all these locations?</p></div>
+  <ul class="map-legend" aria-label="Map legend">{Object.entries(icons).map(([name,src])=><li><img src={src} alt="" width={name==='Branches'?72:26} height="26"/><span>{name}</span></li>)}</ul>
+  <div class="directory-filters"><div><label for="location-search">Search locations</label><input id="location-search" type="search" placeholder="Branch, agent or place" autocomplete="off"/></div><div><label for="location-type">Location type</label><select id="location-type"><option value="all">All locations</option><option>Branches</option><option>Agents</option><option>Financial Literacy Training</option></select></div></div>
+  <div class="map-toolbar"><p id="location-count" role="status" aria-live="polite">{locations.length} locations</p><button type="button" id="map-reset" hidden>Show all locations</button></div>
+  <p id="map-instructions" class="map-instructions">Select a marker or a location below. Drag to move the map; use + and − to zoom.</p>
+  <div id="location-map" class="location-map" aria-label="MiBank locations in Papua New Guinea" aria-describedby="map-instructions" hidden></div>
+  <p id="map-fallback" class="map-fallback">The location list below is available without the interactive map.</p>
+  <ul class="location-list">{locations.map((l,i)=><li data-location={l.name.toLowerCase()} data-type={l.type}><button type="button" class="location-select" data-location-index={i}><span>{l.name}</span><small>{l.type}</small><span class="location-show-map" hidden>View on map ↗</span></button></li>)}</ul>
+  <p id="no-locations" hidden>No matching locations.</p>
+</section>
 <script>
-const search=document.querySelector<HTMLInputElement>('#location-search')!;const type=document.querySelector<HTMLSelectElement>('#location-type')!;function filter(){let count=0;document.querySelectorAll<HTMLElement>('[data-location]').forEach(el=>{const show=el.dataset.location?.includes(search.value.toLowerCase())&&(type.value==='all'||type.value===el.dataset.type);el.hidden=!show;if(show)count++});document.querySelector('#location-count')!.textContent=`${count} locations`;document.querySelector<HTMLElement>('#no-locations')!.hidden=count>0;}search?.addEventListener('input',filter);type?.addEventListener('change',filter);
+import type * as Leaflet from 'leaflet';
+import 'leaflet/dist/leaflet.css';
+import locations from '../data/locations.json';
+import type {GeoJsonObject} from 'geojson';
+const directory=document.querySelector<HTMLElement>('.location-directory')!;
+const search=document.querySelector<HTMLInputElement>('#location-search')!;
+const type=document.querySelector<HTMLSelectElement>('#location-type')!;
+const container=document.querySelector<HTMLElement>('#location-map')!;
+const reset=document.querySelector<HTMLButtonElement>('#map-reset')!;
+const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+const icons:Record<string,string>=Object.fromEntries(Object.entries(JSON.parse(directory.dataset.mapIcons!) as Record<string,string>).map(([key,url])=>[key,url.startsWith(base+'/')?url:base+url]));
+let map:Leaflet.Map|undefined;
+const markers:Leaflet.Marker[]=[];
+let points:Leaflet.FeatureGroup;
+const motion=!matchMedia('(prefers-reduced-motion: reduce)').matches;
+function fit(){if(map&&points.getLayers().length)map.fitBounds(points.getBounds(),{padding:[35,35],maxZoom:7,animate:false})}
+function filter(){let count=0;document.querySelectorAll<HTMLElement>('[data-location]').forEach((el,i)=>{const show=Boolean(el.dataset.location?.includes(search.value.toLowerCase())&&(type.value==='all'||type.value===el.dataset.type));el.hidden=!show;if(show)count++;if(map){if(show)points.addLayer(markers[i]);else points.removeLayer(markers[i])}});document.querySelector('#location-count')!.textContent=`${count} locations`;document.querySelector<HTMLElement>('#no-locations')!.hidden=count>0;if(map){map.closePopup();fit()}}
+search.addEventListener('input',filter);type.addEventListener('change',filter);
+async function initializeMap(){try{
+ const [{default:L},{default:geography}]=await Promise.all([import('leaflet'),import('../data/map-geography.json')]);
+ points=L.featureGroup();
+ container.hidden=false;
+ map=L.map(container,{scrollWheelZoom:false,minZoom:4,maxZoom:10,zoomSnap:.25,zoomDelta:1,fadeAnimation:false,zoomAnimation:motion,markerZoomAnimation:motion,inertia:motion,attributionControl:true,maxBounds:[[-23,126],[6,170]],maxBoundsViscosity:.8});
+ map.attributionControl.setPrefix(false);
+ map.attributionControl.addAttribution('<a href="https://leafletjs.com/">Leaflet</a> · <a href="https://www.naturalearthdata.com/">Natural Earth</a>');
+ L.geoJSON(geography as GeoJsonObject,{interactive:false,style:feature=>({color:'#91ad98',weight:1,fillColor:feature?.properties?.name==='Papua New Guinea'?'#dce5c9':'#e8ebd9',fillOpacity:1})}).addTo(map);
+ const labels:[string,number,number][]=[['PAPUA NEW GUINEA',-6.45,145.5],['INDONESIA',-5.1,137.2],['SOLOMON ISLANDS',-8.85,160],['AUSTRALIA',-13.9,142.9],['Bismarck Sea',-3.7,147.8],['Coral Sea',-11.6,151.5]];
+ labels.forEach(([name,lat,lng])=>L.marker([lat,lng],{interactive:false,keyboard:false,icon:L.divIcon({className:'map-place-label',html:name,iconSize:[150,20],iconAnchor:[75,10]})}).addTo(map!));
+ locations.forEach((l,i)=>{const branch=l.type==='Branches';const icon=L.icon({iconUrl:icons[l.type],iconSize:branch?[64,18]:[25,25],iconAnchor:branch?[32,9]:[12,12],popupAnchor:[0,-12],className:'location-map-marker'});const marker=L.marker([l.lat,l.lng],{icon,keyboard:false,title:l.name,alt:l.name,zIndexOffset:branch?300:l.type==='Agents'?100:0});const popup=document.createElement('div');const name=document.createElement('strong');name.textContent=l.name;popup.append(name);const coords=document.createElement('p');coords.textContent=`${l.lat.toFixed(5)}, ${l.lng.toFixed(5)}`;popup.append(coords);marker.bindPopup(popup,{maxWidth:270,closeButton:true,autoPan:true});marker.on('add',()=>{marker.getElement()?.setAttribute('role','img')});markers[i]=marker;points.addLayer(marker)});
+ points.addTo(map);fit();reset.hidden=false;
+ document.querySelector<HTMLElement>('#map-fallback')!.hidden=true;
+ document.querySelectorAll<HTMLElement>('.location-show-map').forEach(el=>el.hidden=false);
+ document.querySelectorAll<HTMLButtonElement>('[data-location-index]').forEach(button=>button.addEventListener('click',()=>{const marker=markers[Number(button.dataset.locationIndex)];container.scrollIntoView({behavior:motion?'smooth':'instant',block:'center'});map!.setView(marker.getLatLng(),9,{animate:false});marker.openPopup()}));
+ reset.addEventListener('click',()=>{search.value='';type.value='all';filter()});
+ document.addEventListener('keydown',event=>{if(event.key==='Escape')map?.closePopup()});
+ const observer=new ResizeObserver(()=>{map!.invalidateSize({pan:false});fit()});observer.observe(container);
+}catch(error){map?.remove();map=undefined;container.hidden=true;reset.hidden=true;console.error('Locations map could not initialize',error)}}
+requestAnimationFrame(()=>setTimeout(initializeMap,0));
 </script>
