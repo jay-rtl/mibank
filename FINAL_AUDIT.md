@@ -105,3 +105,5 @@ Launch readiness: READY FOR REVIEW — deployed preview is available. This is no
 
 ## Locations map repair — 23 October 2026
 The omitted interactive map and oversized legend have been repaired. See MAP_FIX_AUDIT.md for the scoped verification matrix, local performance results and regional-map limitations. All 88 original point coordinates and labels remain intact; original contact wording remains available.
+
+The repair is published at https://jay-rtl.github.io/mibank/about/locations/. Workflow 39820586286 succeeded. Hosted verification passed 44 map checks and three axe scans with zero browser errors, failed resources or external runtime requests. See MAP_FIX_AUDIT.md and audit/map-live-results.json.

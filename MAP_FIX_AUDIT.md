@@ -50,3 +50,15 @@ READY FOR REVIEW — repair verified locally and prepared for the existing GitHu
 ## 7. Next action
 
 Review the updated Locations page on the existing preview after deployment. Verify that the regional map meets the desired map-detail level.
+
+## Hosted verification
+
+Published repair: https://jay-rtl.github.io/mibank/about/locations/
+
+Source commit: 68de40ca84bad6643504e6ae7f0b07f753fe29da. [GitHub Pages workflow](https://github.com/jay-rtl/mibank/actions/runs/39820586286) succeeded.
+
+`node scripts/map-browser-audit.mjs https://jay-rtl.github.io/mibank` passed all 44 checks and three axe scans at 1440/768/390px, with zero browser errors, failed resources or external runtime requests. Live desktop/mobile screenshots were inspected. Evidence: `audit/map-live-results.json`.
+
+An additional delayed-geography test confirms that a search typed while the map loads is retained: both the list and map show the same two Goroka locations. Evidence: `audit/map-loading-filter-result.json`; command: `node scripts/map-load-filter-audit.mjs`.
+
+READY FOR REVIEW — the repair is published and verified on the preview.
