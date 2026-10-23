@@ -1,0 +1,42 @@
+---
+import Icon from './Icon.astro';
+import {asset} from '../lib/content';
+const slides=[
+  {title:'Simple hassle-free banking',subtitle:'For everyone. Grow with us.',image:'video_mibank_hibicus.jpg',alt:'MiBank customer holding a Hibiscus Card',url:'/products',cta:'Discover our products',position:'center 43%'},
+  {title:'Licensed financial institution',subtitle:'Licensed and regulated by the Bank of Papua New Guinea.',image:'Umi market_10-24.jpg',alt:'MiBank gathering at Umi market in Papua New Guinea',url:'/about',cta:'Get to know MiBank',position:'center 48%'},
+  {title:'Modern and affordable',subtitle:'Savings, loans and insurance products.',image:'video_mibank_ulip.jpg',alt:'MiBank customer featured in the ULIP story',url:'/products',cta:'Explore our products',position:'center 40%'},
+  {title:'A trusted banking institution',subtitle:'Innovative and affordable financial services.',image:'video_mibank_agent.jpg',alt:'MiCash agent at a local service point',url:'/about/vision-mission',cta:'Our vision & mission',position:'center 43%'}
+];
+---
+<section class="cinema-hero" data-home-slideshow aria-label="MiBank highlights" aria-roledescription="carousel">
+  <div class="cinema-slides">{slides.map((slide,i)=><div class:list={['cinema-slide',{'is-active':i===0}]} data-slide aria-roledescription="slide" role="group" aria-label={`${i+1} of ${slides.length}`} hidden={i!==0} inert={i!==0}>
+    {i===0?<picture><source type="image/avif" srcset="/assets/hibiscus-hero-640.avif 640w, /assets/hibiscus-hero-960.avif 960w, /assets/hibiscus-hero-1422.avif 1422w" sizes="100vw"/><img class="cinema-hero-photo" src={asset(slide.image)} width="1422" height="906" alt={slide.alt} fetchpriority="high" style={`object-position:${slide.position}`}/></picture>:<img class="cinema-hero-photo" src={asset(slide.image)} width={i===1?1024:1422} height={i===1?768:906} alt={slide.alt} loading="lazy" style={`object-position:${slide.position}`}/>}
+    <div class="cinema-slide-shade"></div><div class="cinema-slide-copy"><span class="cinema-kicker">MiBank · Papua New Guinea</span>{i===0?<h1>Simple <span class="cinema-nowrap">hassle-free</span> banking</h1>:<h2>{slide.title}</h2>}<p>{slide.subtitle}</p><a class="cinema-button" href={slide.url}>{slide.cta}<Icon size={17}/></a></div>
+  </div>)}</div>
+  <button class="cinema-arrow cinema-previous" data-previous aria-label="Previous highlight" hidden><Icon/></button><button class="cinema-arrow cinema-next" data-next aria-label="Next highlight" hidden><Icon/></button>
+  <div class="cinema-hero-bottom shell"><a class="cinema-scroll" href="#mission-title"><span class="cinema-scroll-line" aria-hidden="true"></span>Discover MiBank</a><div class="cinema-slide-controls" data-controls hidden><span class="cinema-slide-counter" aria-hidden="true"><span data-current>01</span> / 04</span><div class="cinema-slide-dots">{slides.map((slide,i)=><button data-go-to={i} aria-label={`Show highlight ${i+1}: ${slide.title}`} aria-pressed={i===0}><span></span></button>)}</div><button class="cinema-pause" data-pause aria-label="Pause slideshow"><span data-pause-icon aria-hidden="true">Ⅱ</span></button></div><span class="cinema-grow">Grow with us</span></div>
+  <p class="sr-only" data-slide-announcement aria-live="polite" aria-atomic="true"></p>
+</section>
+<script>
+const carousel=document.querySelector<HTMLElement>('[data-home-slideshow]');
+if(carousel){
+  const slides=[...carousel.querySelectorAll<HTMLElement>('[data-slide]')];
+  const dots=[...carousel.querySelectorAll<HTMLButtonElement>('[data-go-to]')];
+  const previous=carousel.querySelector<HTMLButtonElement>('[data-previous]')!;
+  const next=carousel.querySelector<HTMLButtonElement>('[data-next]')!;
+  const pause=carousel.querySelector<HTMLButtonElement>('[data-pause]')!;
+  const motion=matchMedia('(prefers-reduced-motion: reduce)');
+  let index=0,paused=motion.matches,timer:ReturnType<typeof setTimeout>|undefined;
+  const updatePause=()=>{pause.setAttribute('aria-label',paused?'Play slideshow':'Pause slideshow');carousel.querySelector('[data-pause-icon]')!.textContent=paused?'▶':'Ⅱ';};
+  const schedule=()=>{clearTimeout(timer);if(!paused&&!document.hidden&&!document.querySelector('[data-welcome-intro][open]'))timer=setTimeout(()=>show(index+1),7000);};
+  const show=(target:number,announce=false)=>{index=(target+slides.length)%slides.length;slides.forEach((slide,i)=>{slide.classList.toggle('is-active',i===index);slide.inert=i!==index;slide.setAttribute('aria-hidden',String(i!==index));});dots.forEach((dot,i)=>dot.setAttribute('aria-pressed',String(i===index)));carousel.querySelector('[data-current]')!.textContent=String(index+1).padStart(2,'0');if(announce)carousel.querySelector('[data-slide-announcement]')!.textContent=`Highlight ${index+1} of ${slides.length}: ${slides[index].querySelector('h1,h2')!.textContent}`;schedule();};
+  // Static first slide remains usable if JavaScript does not run.
+  slides.forEach(slide=>slide.hidden=false);carousel.classList.add('is-enhanced');
+  previous.hidden=false;next.hidden=false;carousel.querySelector<HTMLElement>('[data-controls]')!.hidden=false;
+  previous.addEventListener('click',()=>show(index-1,true));next.addEventListener('click',()=>show(index+1,true));dots.forEach((dot,i)=>dot.addEventListener('click',()=>show(i,true)));
+  pause.addEventListener('click',()=>{paused=!paused;updatePause();schedule();});
+  // Keyboard interaction stops rotation until the visitor explicitly chooses Play.
+  carousel.addEventListener('focusin',event=>{clearTimeout(timer);if(event.target!==pause){paused=true;updatePause();}});
+  document.addEventListener('mibank:intro-finished',schedule);document.addEventListener('visibilitychange',schedule);motion.addEventListener('change',()=>{paused=motion.matches;updatePause();schedule();});updatePause();show(0);
+}
+</script>

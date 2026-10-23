@@ -1,0 +1,162 @@
+{
+  "axe": [
+    {
+      "width": 1440,
+      "route": "/",
+      "mode": "normal motion, settled",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/products/",
+      "mode": "normal motion, settled",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/media/",
+      "mode": "normal motion, settled",
+      "violations": [
+        {
+          "id": "target-size",
+          "nodes": [
+            {
+              "target": [
+                "a[href$=\"#media-2018\"]"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 115px by 22.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0.8px instead of at least 24px."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "mode": "normal motion, settled",
+      "violations": []
+    },
+    {
+      "width": 768,
+      "route": "/products/",
+      "mode": "normal motion, settled",
+      "violations": []
+    },
+    {
+      "width": 768,
+      "route": "/media/",
+      "mode": "normal motion, settled",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "mode": "normal motion, settled",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/products/",
+      "mode": "normal motion, settled",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "route": "/media/",
+      "mode": "normal motion, settled",
+      "violations": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "Footer fully readable 1440 /",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 1440 /products/",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 1440 /media/",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 768 /",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 768 /products/",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 768 /media/",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 390 /",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 390 /products/",
+      "pass": true
+    },
+    {
+      "name": "Footer fully readable 390 /media/",
+      "pass": true
+    },
+    {
+      "name": "Desktop card group active",
+      "pass": true
+    },
+    {
+      "name": "Resize creates separate mobile card sequences",
+      "pass": true
+    },
+    {
+      "name": "Resize cleans up previous mobile scenes",
+      "pass": true
+    },
+    {
+      "name": "Archive anchor jump remains readable",
+      "pass": true
+    },
+    {
+      "name": "Promotional artwork still expands",
+      "pass": true
+    },
+    {
+      "name": "Keyboard unmasks second item in paired row",
+      "pass": true
+    },
+    {
+      "name": "Existing rail warning reproduces with motion disabled",
+      "pass": true
+    },
+    {
+      "name": "Keyboard fully exposes existing archive link",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "knownFindings": [
+    {
+      "id": "target-size",
+      "route": "/media/",
+      "width": 1440,
+      "scope": "Existing sticky year rail at the footer boundary; reproduced with reduced motion; keyboard exposes full target.",
+      "original": [
+        {
+          "id": "target-size",
+          "nodes": [
+            {
+              "target": [
+                "a[href$=\"#media-2018\"]"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size because it is partially obscured (smallest space is 115px by 22.2px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 0.8px instead of at least 24px."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

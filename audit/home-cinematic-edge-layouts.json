@@ -1,0 +1,29 @@
+[
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "zoom": "100%",
+    "overflow": false,
+    "nextReachable": true
+  },
+  {
+    "size": {
+      "width": 844,
+      "height": 390
+    },
+    "zoom": "100%",
+    "overflow": false,
+    "nextReachable": true
+  },
+  {
+    "size": {
+      "width": 1440,
+      "height": 1000
+    },
+    "zoom": "200%",
+    "overflow": false,
+    "nextReachable": true
+  }
+]

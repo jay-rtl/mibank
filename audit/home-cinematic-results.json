@@ -1,0 +1,350 @@
+{
+  "base": "http://127.0.0.1:4321",
+  "environment": "Local production preview; installed Chrome via Playwright",
+  "checks": [
+    {
+      "name": "Home HTTP 200 1440",
+      "pass": true
+    },
+    {
+      "name": "All images load 1440",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Dark home theme 1440",
+      "pass": true
+    },
+    {
+      "name": "Four slides 1440",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion starts paused 1440",
+      "pass": true
+    },
+    {
+      "name": "Next slide 1440",
+      "pass": true
+    },
+    {
+      "name": "Only current slide interactive 1440",
+      "pass": true
+    },
+    {
+      "name": "Previous slide 1440",
+      "pass": true
+    },
+    {
+      "name": "Wrap previous 1440",
+      "pass": true
+    },
+    {
+      "name": "Wrap next 1440",
+      "pass": true
+    },
+    {
+      "name": "Keyboard direct slide 1440",
+      "pass": true
+    },
+    {
+      "name": "Slide announcement 1440",
+      "pass": true
+    },
+    {
+      "name": "Inactive CTA excluded from keyboard 1440",
+      "pass": true
+    },
+    {
+      "name": "Desktop products dropdown",
+      "pass": true
+    },
+    {
+      "name": "Desktop dropdown Escape",
+      "pass": true
+    },
+    {
+      "name": "Discover anchor 1440",
+      "pass": true
+    },
+    {
+      "name": "Sticky header 1440",
+      "pass": true
+    },
+    {
+      "name": "Home HTTP 200 768",
+      "pass": true
+    },
+    {
+      "name": "All images load 768",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow 768",
+      "pass": true
+    },
+    {
+      "name": "Dark home theme 768",
+      "pass": true
+    },
+    {
+      "name": "Four slides 768",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion starts paused 768",
+      "pass": true
+    },
+    {
+      "name": "Next slide 768",
+      "pass": true
+    },
+    {
+      "name": "Only current slide interactive 768",
+      "pass": true
+    },
+    {
+      "name": "Previous slide 768",
+      "pass": true
+    },
+    {
+      "name": "Wrap previous 768",
+      "pass": true
+    },
+    {
+      "name": "Wrap next 768",
+      "pass": true
+    },
+    {
+      "name": "Keyboard direct slide 768",
+      "pass": true
+    },
+    {
+      "name": "Slide announcement 768",
+      "pass": true
+    },
+    {
+      "name": "Inactive CTA excluded from keyboard 768",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu opens 768",
+      "pass": true
+    },
+    {
+      "name": "Mobile product menu 768",
+      "pass": true
+    },
+    {
+      "name": "Escape closes dropdown 768",
+      "pass": true
+    },
+    {
+      "name": "Escape closes mobile menu 768",
+      "pass": true
+    },
+    {
+      "name": "Discover anchor 768",
+      "pass": true
+    },
+    {
+      "name": "Sticky header 768",
+      "pass": true
+    },
+    {
+      "name": "Home HTTP 200 390",
+      "pass": true
+    },
+    {
+      "name": "All images load 390",
+      "pass": true
+    },
+    {
+      "name": "No horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Dark home theme 390",
+      "pass": true
+    },
+    {
+      "name": "Four slides 390",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion starts paused 390",
+      "pass": true
+    },
+    {
+      "name": "Next slide 390",
+      "pass": true
+    },
+    {
+      "name": "Only current slide interactive 390",
+      "pass": true
+    },
+    {
+      "name": "Previous slide 390",
+      "pass": true
+    },
+    {
+      "name": "Wrap previous 390",
+      "pass": true
+    },
+    {
+      "name": "Wrap next 390",
+      "pass": true
+    },
+    {
+      "name": "Keyboard direct slide 390",
+      "pass": true
+    },
+    {
+      "name": "Slide announcement 390",
+      "pass": true
+    },
+    {
+      "name": "Inactive CTA excluded from keyboard 390",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu opens 390",
+      "pass": true
+    },
+    {
+      "name": "Mobile product menu 390",
+      "pass": true
+    },
+    {
+      "name": "Escape closes dropdown 390",
+      "pass": true
+    },
+    {
+      "name": "Escape closes mobile menu 390",
+      "pass": true
+    },
+    {
+      "name": "Discover anchor 390",
+      "pass": true
+    },
+    {
+      "name": "Sticky header 390",
+      "pass": true
+    },
+    {
+      "name": "Three original report PDFs",
+      "pass": true
+    },
+    {
+      "name": "Report PDF Mibank_AR2023-7af46486.pdf",
+      "pass": true
+    },
+    {
+      "name": "Report PDF Mibank_AR2022-da5e24d6.pdf",
+      "pass": true
+    },
+    {
+      "name": "Report PDF Financial-Statements-2021-c55aa85d.pdf",
+      "pass": true
+    },
+    {
+      "name": "Autoplay enabled by default",
+      "pass": true
+    },
+    {
+      "name": "Automatic rotation after 7s",
+      "pass": true
+    },
+    {
+      "name": "Pause control changes state",
+      "pass": true
+    },
+    {
+      "name": "Pause stops automatic rotation",
+      "pass": true
+    },
+    {
+      "name": "Play resumes rotation",
+      "pass": true
+    },
+    {
+      "name": "Active slide CTA receives keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "Focus stops rotation",
+      "pass": true
+    },
+    {
+      "name": "Keyboard focus pauses until Play",
+      "pass": true
+    },
+    {
+      "name": "No-JS first slide usable",
+      "pass": true
+    },
+    {
+      "name": "No-JS controls hidden",
+      "pass": true
+    },
+    {
+      "name": "No-JS navigation usable",
+      "pass": true
+    },
+    {
+      "name": "No-JS content and reports available",
+      "pass": true
+    },
+    {
+      "name": "Regression HTTP /media/",
+      "pass": true
+    },
+    {
+      "name": "Shared dark theme on /media/",
+      "pass": true
+    },
+    {
+      "name": "Regression HTTP /about/locations/",
+      "pass": true
+    },
+    {
+      "name": "Shared dark theme on /about/locations/",
+      "pass": true
+    },
+    {
+      "name": "Regression HTTP /products/micash/",
+      "pass": true
+    },
+    {
+      "name": "Shared dark theme on /products/micash/",
+      "pass": true
+    },
+    {
+      "name": "Regression HTTP /media/hibiscus/",
+      "pass": true
+    },
+    {
+      "name": "Shared dark theme on /media/hibiscus/",
+      "pass": true
+    }
+  ],
+  "axe": [
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

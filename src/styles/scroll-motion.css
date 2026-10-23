@@ -1,0 +1,5 @@
+/* Applied only to existing image frames by the client-side animation context. */
+.scroll-motion-frame{overflow:hidden}
+/* Independent scale composes with existing image hover transforms. */
+.scroll-motion-frame>img{scale:var(--scroll-photo-scale,1)}
+@media(prefers-reduced-motion:reduce){.scroll-motion-frame{overflow:visible}}

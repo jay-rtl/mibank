@@ -5,7 +5,7 @@ import MediaArchive from '../components/MediaArchive.astro';
 import '../styles/locations.css';
 import {load} from 'cheerio';
 export function getStaticPaths(){return pages.filter(p=>p.route!=='/').map(page=>({params:{slug:page.route.slice(1)},props:{page}}))}
-const {page}=Astro.props;const isProducts=page.route==='/products';const isProduct=page.route.startsWith('/products/');const isLocations=page.route==='/about/locations';const section=isProduct?'Products':page.route.startsWith('/media')?'Media':'About us';const links=isProduct?products:about;const isPeople=/directors|management/.test(page.route);const isMedia=page.route==='/media';
+const {page}=Astro.props;const isProducts=page.route==='/products';const isProduct=page.route.startsWith('/products/');const isLocations=page.route==='/about/locations';const section=(isProducts||isProduct)?'Products':page.route.startsWith('/media')?'Media':'About us';const links=isProduct?products:about;const isPeople=/directors|management/.test(page.route);const isMedia=page.route==='/media';
 let sourceContent=page.html;
 if(isLocations){const content=load(sourceContent);content('body').children().first().remove();sourceContent=content('body').html()||'';}
 ---

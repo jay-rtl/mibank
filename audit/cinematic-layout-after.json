@@ -1,0 +1,632 @@
+[
+  {
+    "width": 1440,
+    "route": "/",
+    "height": 5917,
+    "boxes": [
+      {
+        "className": "cinema-mission cinema-section shell",
+        "x": 80,
+        "y": 1001.59375,
+        "width": 1280,
+        "height": 1122.046875
+      },
+      {
+        "className": "cinema-products",
+        "x": 200,
+        "y": 1378.28125,
+        "width": 1040,
+        "height": 489.359375
+      },
+      {
+        "className": "shell cinema-story-grid",
+        "x": 80,
+        "y": 2223.640625,
+        "width": 1280,
+        "height": 560
+      },
+      {
+        "className": "cinema-reports cinema-section shell",
+        "x": 80,
+        "y": 2883.640625,
+        "width": 1280,
+        "height": 791.65625
+      },
+      {
+        "className": "cinema-film-grid",
+        "x": 80,
+        "y": 4259.09375,
+        "width": 1280,
+        "height": 305.15625
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 5246.4375,
+        "width": 1440,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 5392.828125,
+        "width": 1440,
+        "height": 524.34375
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/products/",
+    "height": 3415,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 157.59375,
+        "width": 1440,
+        "height": 225.984375
+      },
+      {
+        "className": "all-products",
+        "x": 80,
+        "y": 469.578125,
+        "width": 1280,
+        "height": 994
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 2744.359375,
+        "width": 1440,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 2890.75,
+        "width": 1440,
+        "height": 524.34375
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/media/",
+    "height": 8543,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 157.59375,
+        "width": 1440,
+        "height": 225.984375
+      },
+      {
+        "className": "newsroom shell",
+        "x": 80,
+        "y": 383.578125,
+        "width": 1280,
+        "height": 7488.1875
+      },
+      {
+        "className": "news-feature",
+        "x": 80,
+        "y": 594.359375,
+        "width": 1280,
+        "height": 543.75
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 7871.765625,
+        "width": 1440,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 8018.15625,
+        "width": 1440,
+        "height": 524.34375
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/about/annual-reports/",
+    "height": 4406,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 157.59375,
+        "width": 1440,
+        "height": 225.984375
+      },
+      {
+        "className": "shell page-grid",
+        "x": 80,
+        "y": 383.578125,
+        "width": 1280,
+        "height": 3351.890625
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 3735.46875,
+        "width": 1440,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 3881.859375,
+        "width": 1440,
+        "height": 524.34375
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/about/locations/",
+    "height": 8450,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 157.59375,
+        "width": 1440,
+        "height": 225.984375
+      },
+      {
+        "className": "shell page-grid",
+        "x": 80,
+        "y": 383.578125,
+        "width": 1280,
+        "height": 7395.40625
+      },
+      {
+        "className": "location-map leaflet-container leaflet-touch leaflet-grab leaflet-touch-drag leaflet-touch-zoom",
+        "x": 380,
+        "y": 765.71875,
+        "width": 980,
+        "height": 540
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 7778.984375,
+        "width": 1440,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 7925.375,
+        "width": 1440,
+        "height": 524.34375
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "route": "/",
+    "height": 5563,
+    "boxes": [
+      {
+        "className": "cinema-mission cinema-section shell",
+        "x": 20,
+        "y": 781.59375,
+        "width": 728,
+        "height": 1039.296875
+      },
+      {
+        "className": "cinema-products",
+        "x": 20,
+        "y": 1110.59375,
+        "width": 728,
+        "height": 398.296875
+      },
+      {
+        "className": "shell cinema-story-grid",
+        "x": 20,
+        "y": 1890.890625,
+        "width": 728,
+        "height": 896.859375
+      },
+      {
+        "className": "cinema-reports cinema-section shell",
+        "x": 20,
+        "y": 2857.75,
+        "width": 728,
+        "height": 591.328125
+      },
+      {
+        "className": "cinema-film-grid",
+        "x": 20,
+        "y": 3949.0625,
+        "width": 728,
+        "height": 188.515625
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 4694.765625,
+        "width": 768,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 4841.15625,
+        "width": 768,
+        "height": 721.71875
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "route": "/products/",
+    "height": 4462,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 141.59375,
+        "width": 768,
+        "height": 178.78125
+      },
+      {
+        "className": "all-products",
+        "x": 20,
+        "y": 378.375,
+        "width": 728,
+        "height": 819
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 3594.265625,
+        "width": 768,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 3740.65625,
+        "width": 768,
+        "height": 721.71875
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "route": "/media/",
+    "height": 8465,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 141.59375,
+        "width": 768,
+        "height": 178.78125
+      },
+      {
+        "className": "newsroom shell",
+        "x": 20,
+        "y": 320.375,
+        "width": 728,
+        "height": 7276.1875
+      },
+      {
+        "className": "news-feature",
+        "x": 20,
+        "y": 583.921875,
+        "width": 728,
+        "height": 287.203125
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 7596.5625,
+        "width": 768,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 7742.953125,
+        "width": 768,
+        "height": 721.71875
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "route": "/about/annual-reports/",
+    "height": 4953,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 141.59375,
+        "width": 768,
+        "height": 178.78125
+      },
+      {
+        "className": "shell page-grid",
+        "x": 20,
+        "y": 320.375,
+        "width": 728,
+        "height": 3764.078125
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 4084.453125,
+        "width": 768,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 4230.84375,
+        "width": 768,
+        "height": 721.71875
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "route": "/about/locations/",
+    "height": 8576,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 141.59375,
+        "width": 768,
+        "height": 178.78125
+      },
+      {
+        "className": "shell page-grid",
+        "x": 20,
+        "y": 320.375,
+        "width": 728,
+        "height": 7387.09375
+      },
+      {
+        "className": "location-map leaflet-container leaflet-touch leaflet-grab leaflet-touch-drag leaflet-touch-zoom",
+        "x": 20,
+        "y": 780.5,
+        "width": 728,
+        "height": 470
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 7707.46875,
+        "width": 768,
+        "height": 146.390625
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 7853.859375,
+        "width": 768,
+        "height": 721.71875
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "height": 8317,
+    "boxes": [
+      {
+        "className": "cinema-mission cinema-section shell",
+        "x": 20,
+        "y": 845.390625,
+        "width": 350,
+        "height": 2196.296875
+      },
+      {
+        "className": "cinema-products",
+        "x": 30,
+        "y": 1166.21875,
+        "width": 330,
+        "height": 1420.671875
+      },
+      {
+        "className": "shell cinema-story-grid",
+        "x": 20,
+        "y": 3096.6875,
+        "width": 350,
+        "height": 870.96875
+      },
+      {
+        "className": "cinema-reports cinema-section shell",
+        "x": 20,
+        "y": 4022.65625,
+        "width": 350,
+        "height": 695.984375
+      },
+      {
+        "className": "cinema-film-grid",
+        "x": 20,
+        "y": 5481.484375,
+        "width": 350,
+        "height": 876.765625
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 7108.03125,
+        "width": 390,
+        "height": 197.28125
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 7305.3125,
+        "width": 390,
+        "height": 1011.453125
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/products/",
+    "height": 7617,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 125.390625,
+        "width": 390,
+        "height": 170.078125
+      },
+      {
+        "className": "all-products",
+        "x": 20,
+        "y": 343.46875,
+        "width": 350,
+        "height": 1781
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 6408.359375,
+        "width": 390,
+        "height": 197.28125
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 6605.640625,
+        "width": 390,
+        "height": 1011.453125
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/media/",
+    "height": 8859,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 125.390625,
+        "width": 390,
+        "height": 170.078125
+      },
+      {
+        "className": "newsroom shell",
+        "x": 20,
+        "y": 295.46875,
+        "width": 350,
+        "height": 7354.859375
+      },
+      {
+        "className": "news-feature",
+        "x": 20,
+        "y": 659.390625,
+        "width": 350,
+        "height": 550.046875
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 7650.328125,
+        "width": 390,
+        "height": 197.28125
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 7847.609375,
+        "width": 390,
+        "height": 1011.453125
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/about/annual-reports/",
+    "height": 4965,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 125.390625,
+        "width": 390,
+        "height": 170.078125
+      },
+      {
+        "className": "shell page-grid",
+        "x": 20,
+        "y": 295.46875,
+        "width": 350,
+        "height": 3460.78125
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 3756.25,
+        "width": 390,
+        "height": 197.28125
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 3953.53125,
+        "width": 390,
+        "height": 1011.453125
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "route": "/about/locations/",
+    "height": 14647,
+    "boxes": [
+      {
+        "className": "page-heading",
+        "x": 0,
+        "y": 125.390625,
+        "width": 390,
+        "height": 170.078125
+      },
+      {
+        "className": "shell page-grid",
+        "x": 20,
+        "y": 295.46875,
+        "width": 350,
+        "height": 13142.5
+      },
+      {
+        "className": "location-map leaflet-container leaflet-touch leaflet-grab leaflet-touch-drag leaflet-touch-zoom",
+        "x": 20,
+        "y": 904.1875,
+        "width": 350,
+        "height": 390
+      },
+      {
+        "className": "callout",
+        "x": 0,
+        "y": 13437.96875,
+        "width": 390,
+        "height": 197.28125
+      },
+      {
+        "className": "",
+        "x": 0,
+        "y": 13635.25,
+        "width": 390,
+        "height": 1011.453125
+      }
+    ]
+  }
+]

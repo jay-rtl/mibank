@@ -1,0 +1,47 @@
+---
+import '../styles/welcome.css';
+---
+<dialog class="welcome-intro" data-welcome-intro aria-labelledby="welcome-title" aria-describedby="welcome-description">
+  <div class="welcome-frame" aria-hidden="true"><span></span><span></span></div>
+  <div class="welcome-top"><span>Papua New Guinea</span><span aria-hidden="true">Est. 2004</span></div>
+  <div class="welcome-centre">
+    <span class="welcome-rule" aria-hidden="true"></span>
+    <p class="welcome-title" id="welcome-title"><span class="welcome-greeting">Welcome to</span><span class="welcome-name">MiBank</span></p>
+    <p class="welcome-description" id="welcome-description">Simple hassle-free banking for everyone</p>
+    <div class="welcome-flourish" aria-hidden="true"><span></span><i></i><span></span></div>
+  </div>
+  <div class="welcome-bottom"><span class="welcome-signoff">Grow with us</span><div class="welcome-timeline" aria-hidden="true"><span></span></div><button type="button" class="welcome-skip" data-welcome-skip autofocus>Skip intro <span aria-hidden="true">↗</span></button></div>
+</dialog>
+<script is:inline>
+(() => {
+  const intro = document.querySelector('[data-welcome-intro]');
+  if (!(intro instanceof HTMLDialogElement) || !intro.showModal || location.hash) return;
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  let holdTimer, exitTimer, safetyTimer, finished = false;
+  const finish = (userInitiated = false) => {
+    if (finished) return;
+    finished = true;
+    clearTimeout(holdTimer); clearTimeout(exitTimer); clearTimeout(safetyTimer);
+    intro.close();
+    document.documentElement.classList.remove('welcome-active');
+    if (userInitiated) document.querySelector('#main')?.focus({preventScroll:true});
+    document.dispatchEvent(new Event('mibank:intro-finished'));
+  };
+  try {
+    intro.showModal();
+    document.documentElement.classList.add('welcome-active');
+    // The page loads underneath. This is a timed welcome, not a fake loading meter.
+    holdTimer = setTimeout(() => {
+      if (reducedMotion.matches) return finish();
+      intro.classList.add('is-leaving');
+      exitTimer = setTimeout(() => finish(), 1200);
+    }, reducedMotion.matches ? 900 : 5400);
+    safetyTimer = setTimeout(() => finish(), 8500);
+    intro.querySelector('[data-welcome-skip]').addEventListener('click', () => finish(true));
+    intro.addEventListener('cancel', event => {event.preventDefault(); finish(true);});
+    reducedMotion.addEventListener('change', event => {if(event.matches) finish();}, {once:true});
+  } catch {
+    finish();
+  }
+})();
+</script>

@@ -1,0 +1,421 @@
+{
+  "base": "http://127.0.0.1:4321",
+  "routes": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/business-loan",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/fisheries-loan",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/farmers-loan",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/school-fee-loan",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/miloan",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/sola-pawa-loans",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/mipikinini",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/micash",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/term-deposits",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/board-of-directors",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/executive-management",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/vehicle-loan",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/locations",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/contact",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/privacy",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/media/hibiscus",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/vision-mission",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/history",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/media/michoice",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/media/ulip",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/media",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/payroll-loan",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/media/micash-agent",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/micard",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/micash/fees",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2015",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2014",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2017",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2016",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2013",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2018",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2011",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports/2012",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/source-unavailable",
+      "width": 1440,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    }
+  ],
+  "mobile": [
+    {
+      "route": "/products",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/annual-reports",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/media",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/locations",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/products/micash/fees",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/contact",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/about/board-of-directors",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/media/hibiscus",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    },
+    {
+      "route": "/source-unavailable",
+      "width": 390,
+      "status": 200,
+      "dark": true,
+      "overflow": false,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "interactions": [
+    {
+      "name": "Old Latest News graphic replaced",
+      "pass": true
+    },
+    {
+      "name": "Media empty state readable",
+      "pass": true
+    },
+    {
+      "name": "Media empty state axe",
+      "pass": true,
+      "violations": []
+    },
+    {
+      "name": "Media reset restores 49 items",
+      "pass": true
+    },
+    {
+      "name": "Location popup opens",
+      "pass": true
+    },
+    {
+      "name": "Map popup axe",
+      "pass": true,
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "checks": [
+    {
+      "name": "Intro retained 1440",
+      "pass": true
+    },
+    {
+      "name": "Homepage reveal targets restored 1440",
+      "pass": true
+    },
+    {
+      "name": "Hero is not animated by scroll observer 1440",
+      "pass": true
+    },
+    {
+      "name": "Scroll triggers heading animation 1440",
+      "pass": true
+    },
+    {
+      "name": "Visible fade and lift occur 1440",
+      "pass": true
+    },
+    {
+      "name": "Animation restores readable content 1440",
+      "pass": true
+    },
+    {
+      "name": "Reveal replays after leaving viewport 1440",
+      "pass": true
+    },
+    {
+      "name": "Keyboard focus cancels reveal 1440",
+      "pass": true
+    },
+    {
+      "name": "Staggered product layout preserved 1440",
+      "pass": true
+    },
+    {
+      "name": "No scroll-related horizontal overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Intro retained 768",
+      "pass": true
+    },
+    {
+      "name": "Homepage reveal targets restored 768",
+      "pass": true
+    },
+    {
+      "name": "Hero is not animated by scroll observer 768",
+      "pass": true
+    },
+    {
+      "name": "Scroll triggers heading animation 768",
+      "pass": true
+    },
+    {
+      "name": "Visible fade and lift occur 768",
+      "pass": true
+    },
+    {
+      "name": "Animation restores readable content 768",
+      "pass": true
+    },
+    {
+      "name": "Reveal replays after leaving viewport 768",
+      "pass": true
+    },
+    {
+      "name": "Keyboard focus cancels reveal 768",
+      "pass": true
+    },
+    {
+      "name": "Staggered product layout preserved 768",
+      "pass": true
+    },
+    {
+      "name": "No scroll-related horizontal overflow 768",
+      "pass": true
+    },
+    {
+      "name": "Intro retained 390",
+      "pass": true
+    },
+    {
+      "name": "Homepage reveal targets restored 390",
+      "pass": true
+    },
+    {
+      "name": "Hero is not animated by scroll observer 390",
+      "pass": true
+    },
+    {
+      "name": "Scroll triggers heading animation 390",
+      "pass": true
+    },
+    {
+      "name": "Visible fade and lift occur 390",
+      "pass": true
+    },
+    {
+      "name": "Animation restores readable content 390",
+      "pass": true
+    },
+    {
+      "name": "Reveal replays after leaving viewport 390",
+      "pass": true
+    },
+    {
+      "name": "Keyboard focus cancels reveal 390",
+      "pass": true
+    },
+    {
+      "name": "No scroll-related horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Product rows animate on scroll",
+      "pass": true
+    },
+    {
+      "name": "News archive rows animate",
+      "pass": true
+    },
+    {
+      "name": "Interactive map excluded from transforms",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion leaves content static",
+      "pass": true
+    },
+    {
+      "name": "No-JS content stays visible",
+      "pass": true
+    }
+  ],
+  "axe": [
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

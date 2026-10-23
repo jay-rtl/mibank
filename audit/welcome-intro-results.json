@@ -1,0 +1,192 @@
+{
+  "checks": [
+    {
+      "name": "Welcome opens 1440",
+      "pass": true
+    },
+    {
+      "name": "Welcome has no logo/image 1440",
+      "pass": true
+    },
+    {
+      "name": "Welcome text 1440",
+      "pass": true
+    },
+    {
+      "name": "Scroll locked 1440",
+      "pass": true
+    },
+    {
+      "name": "No overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Unhurried hold at 5 seconds 1440",
+      "pass": true
+    },
+    {
+      "name": "Hero remains first slide during intro 1440",
+      "pass": true
+    },
+    {
+      "name": "Automatic dismissal after 6.6 seconds 1440",
+      "pass": true
+    },
+    {
+      "name": "Scroll restored 1440",
+      "pass": true
+    },
+    {
+      "name": "Hero autoplay starts after intro 1440",
+      "pass": true
+    },
+    {
+      "name": "Welcome opens 768",
+      "pass": true
+    },
+    {
+      "name": "Welcome has no logo/image 768",
+      "pass": true
+    },
+    {
+      "name": "Welcome text 768",
+      "pass": true
+    },
+    {
+      "name": "Scroll locked 768",
+      "pass": true
+    },
+    {
+      "name": "No overflow 768",
+      "pass": true
+    },
+    {
+      "name": "Unhurried hold at 5 seconds 768",
+      "pass": true
+    },
+    {
+      "name": "Hero remains first slide during intro 768",
+      "pass": true
+    },
+    {
+      "name": "Automatic dismissal after 6.6 seconds 768",
+      "pass": true
+    },
+    {
+      "name": "Scroll restored 768",
+      "pass": true
+    },
+    {
+      "name": "Hero autoplay starts after intro 768",
+      "pass": true
+    },
+    {
+      "name": "Welcome opens 390",
+      "pass": true
+    },
+    {
+      "name": "Welcome has no logo/image 390",
+      "pass": true
+    },
+    {
+      "name": "Welcome text 390",
+      "pass": true
+    },
+    {
+      "name": "Scroll locked 390",
+      "pass": true
+    },
+    {
+      "name": "No overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Unhurried hold at 5 seconds 390",
+      "pass": true
+    },
+    {
+      "name": "Hero remains first slide during intro 390",
+      "pass": true
+    },
+    {
+      "name": "Automatic dismissal after 6.6 seconds 390",
+      "pass": true
+    },
+    {
+      "name": "Scroll restored 390",
+      "pass": true
+    },
+    {
+      "name": "Hero autoplay starts after intro 390",
+      "pass": true
+    },
+    {
+      "name": "Background navigation is inert during intro",
+      "pass": true
+    },
+    {
+      "name": "Keyboard skip receives focus",
+      "pass": true
+    },
+    {
+      "name": "Skip closes immediately",
+      "pass": true
+    },
+    {
+      "name": "Skip focuses main",
+      "pass": true
+    },
+    {
+      "name": "Escape closes intro",
+      "pass": true
+    },
+    {
+      "name": "Escape unlocks scroll",
+      "pass": true
+    },
+    {
+      "name": "Direct anchor bypasses intro",
+      "pass": true
+    },
+    {
+      "name": "No intro on inner pages",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion static welcome",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion avoids long wait",
+      "pass": true
+    },
+    {
+      "name": "Reduced-motion hero stays paused",
+      "pass": true
+    },
+    {
+      "name": "No-JS intro does not block page",
+      "pass": true
+    },
+    {
+      "name": "No-JS hero visible",
+      "pass": true
+    }
+  ],
+  "axe": [
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

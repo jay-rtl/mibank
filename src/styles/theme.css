@@ -1,0 +1,30 @@
+/* Shared MiBank theme, including informational, media and fallback pages. */
+.site-dark{color-scheme:dark;--ink:#f3f1e7;--muted:#c0c6bb;--paper:#202723;--line:#ffffff2e;--theme-bg:#171c1b;--theme-link:#e4d78f;--theme-serif:Georgia,'Times New Roman',serif;background:var(--theme-bg);color:var(--ink)}
+.site-dark :is(h1,h2,h3){font-family:var(--theme-serif);font-weight:400;letter-spacing:-.035em}
+.site-dark :is(a,button,summary,input,select):focus-visible{outline-color:#ffe000}
+.site-dark .preview-bar{background:#101512;color:#d4d8cb}.site-dark .utility{background:var(--paper);color:#e0e2d7}
+.site-dark .site-header{background:#171c1bf5;border-color:var(--line)}
+.site-dark .logo{background:#fff;padding:2px 4px;width:154px}.site-dark .logo img{width:146px}
+.site-dark #primary-nav{font-size:12px}.site-dark #primary-nav a:hover,.site-dark summary:hover{color:#ffe000}
+.site-dark .nav-contact{background:#efeddd;color:#202722;border-color:#efeddd}.site-dark #primary-nav .nav-contact:hover{background:#ffe000;color:#202722}
+.site-dark .dropdown{background:#242d26;color:var(--ink);box-shadow:0 15px 30px #0004}.site-dark .dropdown-links a span{color:#d5ca8c}
+.site-dark .mobile-toggle{border-color:#ffffff60;color:var(--ink)}
+.site-dark .page-heading{background:#202723}.site-dark .page-heading h1{font-size:clamp(38px,4.6vw,64px)}.site-dark .page-marker{color:#d5c982}
+.site-dark .breadcrumbs{color:#c5cabc}.site-dark .breadcrumbs a:hover{color:#ffe000}
+.site-dark .page-sidebar nav a span{color:#d1c783}.site-dark .page-sidebar nav a[aria-current]{border-bottom-color:#e0d493}.site-dark .sidebar-contact{border:1px solid var(--line)}
+.site-dark .source-content a{color:var(--theme-link)}.site-dark .source-content h2{font-size:34px}.site-dark .source-content h3{font-size:27px}
+.site-dark .source-content .content-cell strong{color:var(--ink)}.site-dark .source-content .content-cell a strong{color:inherit}
+.site-dark .button-dark{background:#e7e3cf;color:#202722}.site-dark .button-dark:hover{background:#ffe000;color:#202722}
+.site-dark .text-link{color:var(--theme-link)}.site-dark .button-dark:focus-visible{outline-color:#ffe000}
+.site-dark .product-row{padding-block:28px}.site-dark .product-row>img{background:#edeadb;padding:4px}.site-dark .product-row h2{font-size:27px}.site-dark .row-index{color:#c8bd7d}
+.site-dark .fees-table tr:first-child{color:#24241f}.site-dark .fees-table tr:nth-child(even){background:#242d26}.site-dark .asset-unavailable{background:var(--paper)}
+.site-dark .directory-filters input,.site-dark .directory-filters select{background:#202723;color:var(--ink);border-color:#858d7b}.site-dark .map-instructions{color:var(--muted)}.site-dark .location-list .location-show-map{color:var(--theme-link)}
+.site-dark .map-toolbar button{background:#e7e3cf;color:#242b24;border-color:#c7c7b1}
+/* Geographic imagery and map controls retain their readable, light surface. */
+.site-dark .location-map{color-scheme:light;color:#24241f}.site-dark .location-map :is(a,button):focus-visible{outline-color:#514500}.site-dark .location-map .leaflet-popup-content strong{color:#24241f}
+.site-dark .newsroom-introduction a{color:var(--theme-link)}.site-dark .newsroom-search input{border-color:#858d7b}.site-dark .news-feature-image{background:#262f28}.site-dark .news-feature-end{border-color:var(--line)}
+.site-dark .news-original strong{font-family:var(--theme-serif);letter-spacing:-.025em}.site-dark .news-year-nav a:hover{color:#ffe000}.site-dark .news-year-heading{border-bottom-color:#cabe7e}.site-dark .news-entry-arrow{color:#d0c581}.site-dark .news-empty button{background:#e7e3cf;color:#202722}
+.site-dark .callout{background:#e8e5d4;color:#242b24}.site-dark .callout h2{font-family:var(--theme-serif);font-size:34px;letter-spacing:-.03em}.site-dark .callout :is(a,button):focus-visible{outline-color:#514500}
+.site-dark footer{background:#121714}.site-dark .footer-top p{font-family:var(--theme-serif);font-size:28px}
+@media(max-width:800px){.site-dark #primary-nav{background:#171c1b}.site-dark .dropdown{background:#242d26}.site-dark .logo{width:148px}.site-dark .logo img{width:140px}.site-dark .page-heading h1{font-size:42px}}
+@media(max-width:520px){.site-dark .logo{width:138px}.site-dark .logo img{width:130px}.site-dark .page-heading h1{font-size:37px}.site-dark .source-content h2{font-size:29px}.site-dark .source-content h3{font-size:25px}.site-dark .callout h2{font-size:29px}}

@@ -1,0 +1,65 @@
+import {chromium} from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+const base='http://127.0.0.1:4321/';
+const result={checks:[],axe:[],samples:[],errors:[],failed:[]};
+const check=(name,pass)=>result.checks.push({name,pass});
+const watch=page=>{page.on('pageerror',e=>result.errors.push(e.message));page.on('response',r=>{if(r.status()>=400)result.failed.push({url:r.url(),status:r.status()});});};
+const scroll=async(page,top)=>{await page.evaluate(y=>scrollTo({top:y,behavior:'instant'}),top);await page.waitForTimeout(1750);};
+const sample=async locator=>locator.evaluate(el=>{const s=getComputedStyle(el);const m=new DOMMatrixReadOnly(s.transform==='none'?undefined:s.transform);return {y:m.m42,scale:m.m11,clip:s.clipPath,opacity:s.opacity};});
+async function open(page,route=''){
+ await page.goto(base+route);
+ if(!route&&await page.locator('[data-welcome-intro]').evaluate(el=>el.open))await page.keyboard.press('Escape');
+ await page.evaluate(async()=>{await document.fonts.ready;document.querySelectorAll('img').forEach(img=>img.loading='eager');await Promise.all([...document.images].map(img=>img.decode().catch(()=>{})));});
+ await page.waitForTimeout(300);
+}
+for(const width of [1440,768,390]){
+ const context=await browser.newContext({viewport:{width,height:width===390?844:1000},reducedMotion:'no-preference'});const page=await context.newPage();watch(page);await open(page);
+ const initialHeight=await page.evaluate(()=>document.documentElement.scrollHeight);
+ const root=page.locator(width>520?'.cinema-products':'.cinema-product').first();
+ check(`ScrollTrigger scenes installed ${width}`,await page.locator('[data-scroll-scene]').count()>8);
+ check(`Numeric scrub 1.5 ${width}`,await root.getAttribute('data-scroll-scrub')==='1.5');
+ check(`No hero scroll masks ${width}`,await page.locator('.cinema-hero [data-scroll-scene]').count()===0);
+ check(`No pin spacers ${width}`,await page.locator('.pin-spacer').count()===0);
+ const range=await root.evaluate(el=>({start:+el.dataset.scrollStart,end:+el.dataset.scrollEnd}));
+ check(`Generous scroll distance ${width}`,range.end-range.start>250);
+ const art=page.locator('.cinema-product-art').first();
+ await scroll(page,range.start+(range.end-range.start)*.25);const first=await sample(art);
+ check(`Masked scaled translation at quarter progress ${width}`,first.y>3&&first.scale<1&&first.clip!=='none');
+ check(`No opacity fade ${width}`,first.opacity==='1');
+ await page.waitForTimeout(1700);const held=await sample(art);
+ check(`Holding scroll does not autoplay reveal ${width}`,Math.abs(first.y-held.y)<.15&&Math.abs(first.scale-held.scale)<.001);
+ await scroll(page,range.start+(range.end-range.start)*.6);const middle=await sample(art);
+ check(`Scroll advances reveal ${width}`,middle.y<held.y-2&&middle.scale>held.scale);
+ if(width>520){const arts=await page.locator('.cinema-product-art').evaluateAll(els=>els.map(el=>new DOMMatrixReadOnly(getComputedStyle(el).transform).m42));check(`Cards unfold in staggered sequence ${width}`,arts[0]<arts[1]&&arts[1]<arts[2]);}
+ await page.screenshot({path:`audit/screenshots/cinematic-cards-${width}-middle.png`});
+ await scroll(page,range.end+5);const complete=await sample(art);
+ check(`Scroll completes reveal ${width}`,Math.abs(complete.y)<.1&&Math.abs(complete.scale-1)<.001);
+ await page.screenshot({path:`audit/screenshots/cinematic-cards-${width}-complete.png`});
+ await scroll(page,range.start+(range.end-range.start)*.25);const reversed=await sample(art);
+ check(`Scrolling back reverses unfolding ${width}`,reversed.y>complete.y+3&&Math.abs(reversed.y-first.y)<.3);
+ if(width>520)check(`Original product offset preserved ${width}`,await page.locator('.cinema-product-lowered').evaluate(el=>getComputedStyle(el).transform==='matrix(1, 0, 0, 1, 0, 55)'));
+ check(`Document height unchanged during motion ${width}`,await page.evaluate(()=>document.documentElement.scrollHeight)===initialHeight);
+ const report=page.locator('.cinema-report').first();await report.focus();
+ check(`Keyboard reveals focused report immediately ${width}`,await page.locator('.cinema-report-cover').first().evaluate(el=>getComputedStyle(el).clipPath==='none'&&getComputedStyle(el).transform==='none'));
+ check(`Focused content stays accessible ${width}`,await report.evaluate(el=>el===document.activeElement));
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(150);
+ check(`Live reduced-motion change removes scenes ${width}`,await page.locator('[data-scroll-scene]').count()===0);
+ check(`Reduced motion clears masks ${width}`,await art.evaluate(el=>getComputedStyle(el).clipPath==='none'&&getComputedStyle(el).transform==='none'));
+ check(`No overflow ${width}`,await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();result.axe.push({width,mode:'reduced-motion fallback',violations:axe.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))}))});
+ await page.emulateMedia({reducedMotion:'no-preference'});await page.waitForTimeout(150);
+ check(`Motion can re-enable cleanly ${width}`,await page.locator('[data-scroll-scene]').count()>0);
+ result.samples.push({width,range,first,held,middle,complete,reversed});await context.close();
+}
+const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'no-preference'});const page=await context.newPage();watch(page);
+await open(page,'products/');check('Interior product rows have scrub scenes',await page.locator('.product-row[data-scroll-scene="rows"]').count()>0);
+await open(page,'about/annual-reports/');check('Original report cards have scrub scenes',await page.locator('.content-cell[data-scroll-scene="archive-card"]').count()>0);
+await open(page,'media/');check('News rows have scrub scenes',await page.locator('.news-entry[data-scroll-scene="news-row"]').count()>0);
+check('Media search is outside animated scene',await page.locator('#media-search').evaluate(el=>!el.closest('[data-scroll-scene]')));
+await page.locator('#media-search').fill('Sola PayGo');check('Media search still works',await page.locator('[data-news-item]:visible').count()===1);check('Search results unmask immediately',await page.locator('[data-news-item]:visible .news-original').evaluate(el=>getComputedStyle(el).clipPath==='none'&&getComputedStyle(el).transform==='none'));
+await page.locator('#media-search').fill('no matching entry exists');await page.locator('#media-reset').click();check('Media reset preserves all 49 stories',await page.locator('[data-news-item]:visible').count()===49);
+await open(page,'about/locations/');await page.locator('.leaflet-control-zoom').waitFor();check('Map is excluded from motion',await page.locator('#location-map').evaluate(el=>!el.closest('[data-scroll-scene],.scroll-motion-frame')));check('Location filters stay static',await page.locator('#location-search').evaluate(el=>!el.closest('[data-scroll-scene]')));await page.locator('#location-search').fill('Lihir');await page.locator('.location-select:visible').first().click();check('Map popup still works',await page.locator('.leaflet-popup-content').isVisible());await context.close();
+const noJS=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});const np=await noJS.newPage();await np.goto(base);check('No-JS content has no masks',await np.locator('#mission-title').evaluate(el=>getComputedStyle(el).clipPath==='none'&&getComputedStyle(el).visibility==='visible'));check('No-JS images remain visible',await np.locator('.cinema-product-art').first().evaluate(el=>getComputedStyle(el).clipPath==='none'));await noJS.close();
+await browser.close();await fs.writeFile('audit/cinematic-scroll-results.json',JSON.stringify(result,null,2));console.log(JSON.stringify({checks:result.checks.length,failed:result.checks.filter(c=>!c.pass),axe:result.axe,errors:result.errors,failedRequests:result.failed},null,2));if(result.checks.some(c=>!c.pass)||result.axe.some(a=>a.violations.length)||result.errors.length||result.failed.length)process.exitCode=1;
