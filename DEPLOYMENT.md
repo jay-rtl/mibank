@@ -30,3 +30,9 @@ The captured Locations HTML contained a public source Google Maps API key. Its r
 ## Existing review gaps
 
 Four unavailable source PDFs, caption/transcript and graphical-text accessibility gaps, source business-content inconsistencies, and client/legal review remain documented in FINAL_AUDIT.md. Deployment as a preview does not resolve these release gaps or certify regulatory, privacy, security or WCAG compliance.
+
+## Verified result
+
+Published: https://jay-rtl.github.io/mibank/
+
+Workflow https://github.com/jay-rtl/mibank/actions/runs/39817497085 succeeded. All 37 hosted route checks and 14 hosted browser checks passed. See audit/deployed-route-results.json and audit/deployed-browser-results.json.

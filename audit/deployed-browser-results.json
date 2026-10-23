@@ -1,0 +1,63 @@
+{
+  "base": "https://jay-rtl.github.io/mibank",
+  "checks": [
+    {
+      "name": "Home assets 1440",
+      "pass": true
+    },
+    {
+      "name": "Product navigation 1440",
+      "pass": true
+    },
+    {
+      "name": "Nested refresh 1440",
+      "pass": true
+    },
+    {
+      "name": "Active product 1440",
+      "pass": true
+    },
+    {
+      "name": "Filter 1440",
+      "pass": true
+    },
+    {
+      "name": "Home assets 390",
+      "pass": true
+    },
+    {
+      "name": "Product navigation 390",
+      "pass": true
+    },
+    {
+      "name": "Nested refresh 390",
+      "pass": true
+    },
+    {
+      "name": "Active product 390",
+      "pass": true
+    },
+    {
+      "name": "Filter 390",
+      "pass": true
+    },
+    {
+      "name": "Web video playback hibiscus",
+      "pass": true
+    },
+    {
+      "name": "Web video playback michoice",
+      "pass": true
+    },
+    {
+      "name": "Web video playback ulip",
+      "pass": true
+    },
+    {
+      "name": "Web video playback micash-agent",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

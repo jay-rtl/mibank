@@ -50,3 +50,9 @@ Every page is `noindex,nofollow`; robots.txt disallows crawling. Sitemap intenti
 Unreachable source downloads retain their labels and lead to `/source-unavailable`; no original-domain fallback is used. Source discrepancies, old dates and financial details are preserved for client review. Client approval of rights, content, jurisdiction-specific privacy/legal details and accessible media alternatives is required before public release.
 
 See `SITE_INVENTORY.md`, `CONTENT_AUDIT.md`, `ROUTE_MAPPING.md`, `ASSET_MANIFEST.md` and `FINAL_AUDIT.md`.
+
+## Hosted preview
+
+https://jay-rtl.github.io/mibank/
+
+The user-approved public preview deploys from main through GitHub Actions. See DEPLOYMENT.md for base-path handling and the optimized-video/original-backup policy. Source snapshot API keys are redacted before publication.

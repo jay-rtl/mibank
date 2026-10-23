@@ -1,0 +1,224 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/farmers-loan",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/business-loan",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/school-fee-loan",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/fisheries-loan",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/micash",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/miloan",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/sola-pawa-loans",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/term-deposits",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/mipikinini",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/board-of-directors",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/locations",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/contact",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/executive-management",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/vehicle-loan",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/media/michoice",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/media/hibiscus",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/media/ulip",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/history",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/privacy",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/vision-mission",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/media/micash-agent",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/micash/fees",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/micard",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/media",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2015",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/products/payroll-loan",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2017",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2016",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2011",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2018",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2013",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2014",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  },
+  {
+    "route": "/about/annual-reports/2012",
+    "status": 200,
+    "noindex": true,
+    "hasHeading": true
+  }
+]

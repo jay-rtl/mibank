@@ -1,0 +1,30 @@
+[
+  {
+    "file": "/assets/MiBank_45secTVC_draft-3_9Oct18-221def98.mp4",
+    "originalSeconds": 45,
+    "deployedSeconds": 45,
+    "differenceSeconds": 0,
+    "pass": true
+  },
+  {
+    "file": "/assets/MIBANK-TVC_30sec-draft-7a839936.mp4",
+    "originalSeconds": 30.72,
+    "deployedSeconds": 30.72,
+    "differenceSeconds": 0,
+    "pass": true
+  },
+  {
+    "file": "/assets/ULIP-d9cb70d9.mp4",
+    "originalSeconds": 535.02,
+    "deployedSeconds": 535.04,
+    "differenceSeconds": 0.02,
+    "pass": true
+  },
+  {
+    "file": "/assets/MiBank-MiCash-agent-2bef3952.mp4",
+    "originalSeconds": 414.33,
+    "deployedSeconds": 414.34000000000003,
+    "differenceSeconds": 0.01,
+    "pass": true
+  }
+]

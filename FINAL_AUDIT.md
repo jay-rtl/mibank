@@ -73,3 +73,31 @@ READY FOR REVIEW — The local implementation and captured content are reviewabl
 ## 7. Next action
 
 Run npm run dev locally and review the redesign alongside CONTENT_AUDIT.md. Prioritize supplying the four missing documents and approved accessible media alternatives, then approve any source content corrections before preparing a hosted launch.
+
+
+## GitHub Pages deployment addendum — 23 October 2026
+
+This addendum supersedes earlier statements that no deployment was performed. The user explicitly approved GitHub Pages. This is a public, independent non-production preview, not a deployment to MiBank's official domain.
+
+- Live URL: https://jay-rtl.github.io/mibank/
+- Repository: https://github.com/jay-rtl/mibank
+- Deployed source commit: 924683d00323c89b1f15105ff79921b04ccd1696
+- Successful workflow: https://github.com/jay-rtl/mibank/actions/runs/39817497085
+- Implemented: Pages workflow, /mibank path preparation, active-navigation base handling, source-key redaction and web video derivatives. Original MP4s remain locally in ignored .local-original-media/. See DEPLOYMENT.md and source/video-derivatives.json.
+- Design review: established design retained; desktop/mobile navigation and media verified on the hosted site.
+
+| Category | Status | Deployment evidence |
+| --- | --- | --- |
+| Functionality | PASS | All 37 informational routes return HTTP 200 with primary headings. 14 hosted Chrome checks passed: imagery, desktop/mobile product navigation, active states, refresh, filters and four video playback checks. Zero runtime errors/failed requests. |
+| SEO | PASS | noindex present on all 37 hosted informational pages. No production canonical/domain assumptions introduced. Project robots.txt is served beneath /mibank; meta noindex is the page-level indexing instruction. |
+| Responsive/Visual | PASS | Hosted controls verified in installed Chrome at 1440px and 390px; prior representative screenshot review remains applicable. No redesign introduced during deployment. |
+| Accessibility | NOT TESTED | Full hosted axe/screen-reader audit not repeated; prior UI results and known missing-caption/graphical-text gaps remain. |
+| Security/Privacy | PASS | HTTPS hosting enabled; no credentials included in source. The source site's embedded public Maps key was redacted from repository-bound raw HTML and is not used. No banking backend or data collection was added. Scope is deployment/source checks, not security certification; GitHub Pages does not apply _headers. |
+| Performance | NOT TESTED | Hosted Lighthouse/field CWV were not measured. Earlier mobile lab metrics apply only to the local build. Optimized videos are loaded on demand; no new preload added. |
+| Code/Regression | PASS | GitHub Actions npm ci, type checks, static build and Pages publish succeeded. Local deployment-path audit checked 39 HTML pages with zero broken or unprefixed local references, production-domain links or external resources. |
+
+Tests run: npm run check; DEPLOY_BASE=/mibank npm run build; node scripts/prepare-deploy.mjs; node scripts/deployment-audit.mjs; node scripts/deployment-browser.mjs; node scripts/deployed-routes.mjs; node scripts/deployment-browser.mjs https://jay-rtl.github.io/mibank; node scripts/verify-video-derivatives.mjs. Browser environment: installed Windows Chrome controlled with Playwright. Workflow environment: GitHub-hosted Ubuntu, Node 24. All four video duration comparisons passed within 0.02 seconds of their originals.
+
+Outstanding items: the earlier four unavailable documents, media accessibility, source-content currency, legal/client review and broader browser/device checks are unresolved. GitHub Pages is public hosting; no access-control guarantee is made.
+
+Launch readiness: READY FOR REVIEW — deployed preview is available. This is not clearance to replace the official banking website. Next action: review the live preview and address the existing content/accessibility items before a production launch.
